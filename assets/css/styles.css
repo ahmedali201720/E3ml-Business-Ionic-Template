@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: 'tajawal';
-    color: black;
 }
 
 .tab-content {
@@ -57,7 +56,7 @@
     border-radius: 50%;
     vertical-align: middle;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: 700;
     background-color: red;
     color: white;
