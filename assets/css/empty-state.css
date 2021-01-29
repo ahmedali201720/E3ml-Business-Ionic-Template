@@ -1,0 +1,38 @@
+.no-user-header {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-user-avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.no-user-label {
+    margin: 0.625rem 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: #8a8a8e;
+    text-align: center;
+}
+
+.no-user-login-button {
+    width: 150px;
+}
+
+.no-user-register {
+    color: #8a8a8e;
+}
+
+.no-user-register a {
+    text-decoration: none;
+    color: #71a033;
+}
+
+.no-user-register a:hover {
+    text-decoration: none;
+}

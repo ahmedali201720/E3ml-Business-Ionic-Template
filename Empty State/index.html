@@ -7,6 +7,7 @@
     <title>E3ml Business</title>
     <link rel="stylesheet" href='../assets/css/common.css'>
     <link rel="stylesheet" href='../assets/css/account.css'>
+    <link rel="stylesheet" href='../assets/css/empty-state.css'>
     <link rel="stylesheet" href='../assets/css/font.css'>
     <link rel="icon" href="../assets/img/logo.png">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
@@ -44,78 +45,23 @@
 
                         <div class="tab-content">
 
-                            <div class="header-content">
-                                <div class="header-wrapper">
-                                    <ion-avatar id="accountAvatar">
-                                        <img src="../assets/img/me.jpg" alt="me">
-                                    </ion-avatar>
-                                    <ion-label class="account-label">
-                                        <p class="account-name">omar</p>
-                                        <p class="account-email">ahmedali1994@gmail.com</p>
-                                    </ion-label>
-                                </div>
-                                <div class="account-notification-container">
-                                    <ion-icon class="notification-icon" name="notifications"></ion-icon>
-                                    <span class="notification-badge">6</span>
-                                </div>
+                            <div class="no-user-header">
+
+                                <ion-avatar class="no-user-avatar">
+                                    <img src="../assets/img/empty.png" alt="blank">
+                                </ion-avatar>
+                                <ion-label class="no-user-label">
+                                    To See Your Account , Please Register
+                                </ion-label>
+                                <ion-button color="success" class="no-user-login-button">Login</ion-button>
+                                <p class="no-user-register">
+                                    Don't Have an account ?
+                                    <a href="#">Create one</a>
+                                </p>
+
                             </div>
 
                             <div class="list-container">
-                                <ion-label class="list-header">Account</ion-label>
-                                <ion-list lines="none" class="list-items">
-                                    <ion-item class="list-item">
-                                        <ion-icon class="label-icon" name="person"></ion-icon>
-                                        <ion-label>Edit Personal Information</ion-label>
-                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
-                                        </ion-icon>
-                                    </ion-item>
-                                    <ion-item class="list-item">
-                                        <ion-icon class="label-icon" name="key"></ion-icon>
-                                        <ion-label>Change Password</ion-label>
-                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
-                                        </ion-icon>
-                                    </ion-item>
-                                    <ion-item class="list-item">
-                                        <ion-icon class="label-icon" name="card-outline"></ion-icon>
-                                        <ion-label>My Subscription</ion-label>
-                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
-                                        </ion-icon>
-                                    </ion-item>
-                                    <ion-item class="list-item">
-                                        <ion-icon class="label-icon" name="newspaper-outline"></ion-icon>
-                                        <ion-label>My Certificates</ion-label>
-                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
-                                        </ion-icon>
-                                    </ion-item>
-                                    <ion-item class="list-item">
-                                        <ion-icon class="label-icon" name="person"></ion-icon>
-                                        <ion-label>Favourite</ion-label>
-                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
-                                        </ion-icon>
-                                    </ion-item>
-                                </ion-list>
-                            </div>
-
-                            <div class="list-container">
-                                <ion-label class="list-header">Settings</ion-label>
-                                <ion-list lines="none" class="list-items">
-                                    <ion-item class="list-item">
-                                        <ion-icon class="label-icon" name="cog-outline"></ion-icon>
-                                        <ion-label>Video Settings</ion-label>
-                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
-                                        </ion-icon>
-                                    </ion-item>
-                                    <ion-item class="list-item">
-                                        <ion-icon class="label-icon" name="notifications-circle"></ion-icon>
-                                        <ion-label>Study Reminder</ion-label>
-                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
-                                        </ion-icon>
-                                    </ion-item>
-                                </ion-list>
-                            </div>
-
-                            <div class="list-container">
-                                <ion-label class="list-header">Others</ion-label>
                                 <ion-list lines="none" class="list-items">
                                     <ion-item class="list-item">
                                         <ion-icon class="label-icon" name="checkmark-circle"></ion-icon>
