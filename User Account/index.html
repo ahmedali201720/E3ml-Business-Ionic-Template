@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E3ml Business</title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/styles.css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
     <link rel="icon" href="../assets/img/logo.png">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
@@ -36,7 +39,109 @@
                 </ion-tab>
 
                 <ion-tab tab="tab-account">
-                    <ion-nav></ion-nav>
+
+                    <ion-nav>
+
+                        <div class="tab-content">
+
+                            <div class="header-content">
+                                <div class="header-wrapper">
+                                    <ion-avatar id="accountAvatar">
+                                        <img src="../assets/img/me.jpg" alt="me">
+                                    </ion-avatar>
+                                    <ion-label class="account-label">
+                                        <p class="account-name">omar</p>
+                                        <p class="account-email">ahmedali1994@gmail.com</p>
+                                    </ion-label>
+                                </div>
+                                <div class="account-notification-container">
+                                    <ion-icon class="notification-icon" name="notifications"></ion-icon>
+                                    <span class="notification-badge">6</span>
+                                </div>
+                            </div>
+
+                            <div class="list-container">
+                                <ion-label class="list-header">Account</ion-label>
+                                <ion-list lines="none" class="list-items">
+                                    <ion-item class="list-item">
+                                        <ion-icon class="label-icon" name="person"></ion-icon>
+                                        <ion-label>Edit Personal Information</ion-label>
+                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
+                                        </ion-icon>
+                                    </ion-item>
+                                    <ion-item class="list-item">
+                                        <ion-icon class="label-icon" name="key"></ion-icon>
+                                        <ion-label>Change Password</ion-label>
+                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
+                                        </ion-icon>
+                                    </ion-item>
+                                    <ion-item class="list-item">
+                                        <ion-icon class="label-icon" name="card-outline"></ion-icon>
+                                        <ion-label>My Subscription</ion-label>
+                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
+                                        </ion-icon>
+                                    </ion-item>
+                                    <ion-item class="list-item">
+                                        <ion-icon class="label-icon" name="newspaper-outline"></ion-icon>
+                                        <ion-label>My Certificates</ion-label>
+                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
+                                        </ion-icon>
+                                    </ion-item>
+                                    <ion-item class="list-item">
+                                        <ion-icon class="label-icon" name="person"></ion-icon>
+                                        <ion-label>Favourite</ion-label>
+                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
+                                        </ion-icon>
+                                    </ion-item>
+                                </ion-list>
+                            </div>
+
+                            <div class="list-container">
+                                <ion-label class="list-header">Settings</ion-label>
+                                <ion-list lines="none" class="list-items">
+                                    <ion-item class="list-item">
+                                        <ion-icon class="label-icon" name="cog-outline"></ion-icon>
+                                        <ion-label>Video Settings</ion-label>
+                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
+                                        </ion-icon>
+                                    </ion-item>
+                                    <ion-item class="list-item">
+                                        <ion-icon class="label-icon" name="notifications-circle"></ion-icon>
+                                        <ion-label>Study Reminder</ion-label>
+                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
+                                        </ion-icon>
+                                    </ion-item>
+                                </ion-list>
+                            </div>
+
+                            <div class="list-container">
+                                <ion-label class="list-header">Others</ion-label>
+                                <ion-list lines="none" class="list-items">
+                                    <ion-item class="list-item">
+                                        <ion-icon class="label-icon" name="checkmark-circle"></ion-icon>
+                                        <ion-label>Our Credence</ion-label>
+                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
+                                        </ion-icon>
+                                    </ion-item>
+                                    <ion-item class="list-item">
+                                        <ion-icon class="label-icon" name="help"></ion-icon>
+                                        <ion-label>About Us</ion-label>
+                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
+                                        </ion-icon>
+                                    </ion-item>
+                                    <ion-item class="list-item">
+                                        <ion-icon class="label-icon" name="call"></ion-icon>
+                                        <ion-label>Contact Us</ion-label>
+                                        <ion-icon class="forward-icon" name="chevron-forward-outline" slot="end">
+                                        </ion-icon>
+                                    </ion-item>
+                                </ion-list>
+                            </div>
+
+                        </div>
+
+                    </ion-nav>
+
                 </ion-tab>
 
                 <ion-tab-bar slot="bottom">
@@ -74,6 +179,10 @@
         </ion-content>
 
     </ion-app>
+
+    <script src="../assets/js/popper/popper.min.js"></script>
+    <script src="../assets/js/jquery/jquery-3.5.1.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
 
 </body>
 

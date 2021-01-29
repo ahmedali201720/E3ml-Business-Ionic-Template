@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: 'tajawal';
+    color: black;
+}
+
+.tab-content {
+    padding: 2rem 1.25rem;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper {
+    display: flex;
+}
+
+#accountAvatar {
+    width: 50px;
+    height: 50px;
+}
+
+.account-label {
+    margin: 0 0.5rem;
+}
+
+.account-label .account-name {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+    margin-bottom: 0;
+    color: black !important;
+}
+
+.account-notification-container {
+    display: flex;
+    position: relative;
+    padding: 0.625rem 0.625rem;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.notification-icon {
+    color: white;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+}
+
+.list-container {
+    padding: 2rem 0 0 0;
+}
+
+.list-header {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.list-item {
+    font-size: 12px;
+}
+
+.list-item ion-label {
+    margin: 0 0.325rem;
+}
+
+.list-item .label-icon {
+    font-size: 14px;
+    background-color: var(--outlineColor);
+    padding: 0.5rem 0.5rem;
+    border-radius: 50%;
+    color: green;
+}
+
+.list-item .forward-icon {
+    font-size: 1.4rem;
+    color: gray;
+}
+
+ion-nav {
+    overflow: auto;
+}
