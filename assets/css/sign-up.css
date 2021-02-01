@@ -1,0 +1,108 @@
+ion-header {
+    padding-top: 2.5rem !important
+}
+
+ion-header ion-back-button {
+    display: block !important;
+    color : #71a033 !important
+ }
+
+ ion-header ion-title {
+     padding-left: 0 !important
+ }
+
+ ion-header ion-text {
+     font-weight: bold !important;
+     color : #333 !important
+ }
+
+ ion-content ion-item {
+    /* padding:  0 2% 0 2%; */
+    margin-bottom: 2% !important;
+}
+
+ion-content ion-item ion-label {
+    display: inline-block !important;
+    margin-left: 5% !important;
+    font-size: 20px !important;
+    color : #8a8a8e !important;
+}
+
+ion-content ion-item ion-input {
+    display: inline-block !important;
+    width: 100% !important;
+    --padding-top : 15px !important;
+    --padding-bottom : 15px !important;
+    --padding-start: 15px !important;
+    --padding-end: 15px !important;
+    margin-top: 5% !important;
+    font-weight: bold !important;
+    border : 1px solid #8a8a8e !important;
+    border-radius: 5px !important;
+}
+
+ion-content ion-item:nth-child(3) ion-input { font-weight: normal !important }
+
+ion-content #registerationInfos #registerationAction {
+    padding    : 0 3% 0 3% !important;
+    margin-top : 6%!important
+}
+
+ion-content #registerationInfos #registerationAction ion-button {
+    --border         : 1px solid #71a033 !important;
+    --background     : #71a033 !important;
+    --border-radius  : 10px !important;
+    --padding-top    : 25px !important;
+    --padding-bottom : 25px !important;
+    text-transform   : none !important;
+    font-weight      : bold !important 
+}
+
+ion-content #social-registeration #separator {
+    width: 92% !important; 
+    text-align: center !important ; 
+    border-bottom: 1px solid #8a8a8e !important; 
+    line-height: 0.1em !important;
+    margin: 2rem auto 2rem !important; 
+ } 
+ 
+ ion-content #social-registeration #separator span { 
+     background:#fff !important; 
+     padding:0 10px !important; 
+     text-transform: uppercase !important;
+     font-weight: bold !important;
+     color:#8a8a8e !important
+ }
+
+ ion-content #social-registeration ion-button {
+     text-transform: none !important;
+     font-weight : bold !important;
+     --padding-top   : 25px !important;
+    --padding-bottom : 25px !important;
+    --border         : 1px solid #FFF !important;
+    --background     : #FFF !important;
+    color : #8a8a8e !important
+ }
+
+ ion-content #social-registeration #login_with_facebook ,
+ ion-content #social-registeration #login_with_google {
+     text-align : center !important
+ }
+
+ ion-content #have_account {
+     text-align : center !important;
+     margin : 4rem 0 6rem 0 !important
+ }
+
+ ion-content #have_account p {
+     color : #8a8a8e !important;
+     font-size: 18px !important;
+ }
+
+ ion-content #have_account a {
+     text-decoration: none !important;
+     color : #71a033 !important;
+ }
+ 
+
+
