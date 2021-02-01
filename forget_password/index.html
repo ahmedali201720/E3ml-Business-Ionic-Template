@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Forget Password</title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/forget_password.css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+
+    <ion-app>
+
+        <!-- Start Page Header -->
+        <ion-header class = "ion-no-border" >
+            <ion-toolbar>
+            <ion-buttons slot = "start" >
+                <ion-back-button
+                    icon  = "chevron-back-outline" >
+                </ion-back-button>
+            </ion-buttons>
+            <ion-title>
+                <ion-text> Restore password </ion-text>
+            </ion-title>
+            </ion-toolbar>
+        </ion-header>
+        <!-- End Page Header -->
+
+        <!-- Start Page Content -->
+<ion-content>
+ 
+       <ion-grid>
+
+             <ion-row>
+
+                  <!-- Start Password Recovery Information -->
+
+                   <ion-col size = "12" >
+
+                       <div id = "passwordRecoveryInformation" >
+
+                           <p>
+                            Type your email and We will send a password <br />
+                            recovery link
+                          </p>
+
+                       </div>
+
+                   </ion-col>
+
+                  <!-- End Password Recovery Information -->
+
+                  <!-- Start Email Input -->
+
+                   <ion-col size = "12" >
+
+                       <form id = "restore_password" name = "restore_password" >
+
+                            <div id = "email" >
+
+                                <ion-item lines = "none" >
+                                    <ion-label position="stacked">Email</ion-label>
+                                    <ion-input type = "text" id = "email" value = "Ahem@com" ></ion-input>
+                                  </ion-item>
+
+                            </div>
+
+                            <div id = "restorepasswordAction" >
+
+                                <ion-button expand = "block" >
+                                    Restore password
+                                </ion-button>
+            
+                              </div>
+
+                       </form>
+
+                   </ion-col>
+
+                  <!-- End Email Input -->
+                 
+             </ion-row>
+
+       </ion-grid>
+    
+ </ion-content>
+ <!-- End Page Content -->
+
+    </ion-app>
+
+    <script src="../assets/js/jquery/jquery-3.5.1.js"></script>
+    <!-- <script src="../assets/js/home.js"></script> -->
+
+</body>
+
+</html>
