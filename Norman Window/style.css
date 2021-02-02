@@ -1,0 +1,27 @@
+body {}
+
+.norman-window {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(187, 183, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background-color: indigo;
+}
+
+.circle {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    background-color: indigo;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
