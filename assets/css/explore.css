@@ -280,10 +280,6 @@ ion-nav {
 }
 
 .special-diploma-note {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-wrap: wrap;
     font-size: 12px;
     font-weight: normal;
     color: hsl(240, 2%, 77%);
@@ -297,7 +293,6 @@ ion-nav {
 .special-diploma-note img {
     width: 50px;
     height: 15px;
-    float: right;
 }
 
 .section-options-container {
