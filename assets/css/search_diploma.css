@@ -1,0 +1,81 @@
+ion-header {
+    padding-top: 2.5rem !important;
+}
+
+ion-header ion-back-button {
+    display: block !important ;
+    color : #71a033 !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important
+}
+
+ion-content ion-card { margin-bottom: 5%; }
+
+ion-content .diploma_details .diploma_image {
+    position: relative
+}
+
+ion-content .diploma_details .diploma_image .units {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #777;
+    color: #FFF;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ion-content .diploma_details .diploma_image .units img {
+    display: inline-block;
+    margin-bottom: -8%;
+}
+
+ion-content .diploma_details ion-card-header ion-card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+ion-content .diploma_details ion-card-content .diploma_rate { overflow: hidden }
+
+ion-content .diploma_details ion-card-content .diploma_rate .icons_rate ,
+ion-content .diploma_details ion-card-content .diploma_rate .total_rate_count { float : left }
+
+ion-content .diploma_details ion-card-content .diploma_rate .total_rate_count { margin-left: 2% }
+
+ion-content .diploma_details ion-card-content .diploma_rate .clearfix { clear: both }
+
+ion-content .diploma_details ion-card-content .diploma_rate ion-icon { color : #ffaa00 }
+
+ion-content .diploma_details ion-card-content .diploma_price {
+    font-weight: bold;
+    color: #000;
+    margin-top: 2%;
+}
+
+ion-content .diploma_details ion-card-content .diploma_price ion-text { font-size: 22px }
+
+ion-content .diploma_details ion-card-content .diploma_price ion-text span{
+    display: inline-block;
+    margin-left: -1%;
+    font-size: 18px
+}
+ion-content .diploma_details ion-card-content .diploma_adoption { overflow: hidden ; margin-top: 2%}
+
+ion-content .diploma_details ion-card-content .diploma_adoption .diploma_adoption_title ,
+ion-content .diploma_details ion-card-content .diploma_adoption .diploma_adoption_image { float : left }
+
+ion-content .diploma_details ion-card-content .diploma_adoption .diploma_adoption_title {width : 70% ; margin-top: 1%}
+
+ion-content .diploma_details ion-card-content .diploma_adoption .diploma_adoption_title ion-text span { font-weight: bold ; color: #000 }
+
+ion-content .diploma_details ion-card-content .diploma_adoption .diploma_adoption_image {width: 30% ; text-align: right}
+
+ion-content .diploma_details ion-card-content .diploma_adoption .clearfix { clear: both }
