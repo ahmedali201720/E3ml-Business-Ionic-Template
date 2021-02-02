@@ -79,7 +79,7 @@ ion-nav {
 }
 
 .course-banner-title {
-    font-size: 1.1rem;
+    font-size: 0.85rem;
     font-weight: 700;
     margin-top: 0.375rem;
 }
@@ -132,6 +132,10 @@ ion-nav {
 }
 
 /* Courses Styles */
+
+.newest-courses-container {
+    margin: 0.75rem 0;
+}
 
 .main-label {
     font-size: 16px;
@@ -237,7 +241,7 @@ ion-nav {
 }
 
 .diploma-card-title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 22px;
     height: 43px;
@@ -266,4 +270,61 @@ ion-nav {
 .diploma-price-currency {
     font-size: 20px;
     font-weight: 700;
+}
+
+.special-diploma-container {
+    margin: 0.75rem 0;
+}
+
+.special-diploma-note {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: normal;
+    color: hsl(240, 2%, 77%);
+}
+
+.special-diploma-note .note-highlight {
+    color: black;
+    font-weight: 700;
+}
+
+.special-diploma-note img {
+    width: 50px;
+    height: 15px;
+    float: right;
+}
+
+.section-options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-all-link {
+    padding: 0 0.375rem;
+    font-size: 14px;
+    color: #71a033;
+    text-decoration: none;
+}
+
+.footer-container {
+    margin: 1.2rem 0;
+    padding: 0.325rem 0.525rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #8a8a8e;
+}
+
+.more-details-link {
+    margin: 0.5rem 0;
+    display: block;
+    color: #71a033;
 }
