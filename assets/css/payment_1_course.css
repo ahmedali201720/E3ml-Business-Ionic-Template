@@ -1,0 +1,85 @@
+ion-header {
+    padding-top: 2.5rem !important;
+    background-color: #f2f7ec;
+}
+
+ion-header ion-toolbar { --background: #f2f7ec }
+
+ion-header ion-back-button {
+    display: block !important ;
+    color : #71a033 !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important;
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important;
+    font-size: 19px;
+}
+
+ion-content #start_learning {
+    background-color : #f2f7ec;
+    padding : 50px 0 50px 0
+}
+
+ion-content #start_learning .learning_item {
+    --background: #f2f7ec;
+}
+
+ion-content #start_learning .learning_item i {
+    color : #71a033 ;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+ion-content #start_learning .learning_item p {
+    margin-left: 4%;
+    font-size: 15px;
+    color: #000
+}
+
+/* Start Courses Plan Style */
+
+ion-content #courses_plans { padding : 50px 0 50px 0 }
+
+ion-content #courses_plans .course_plan  { margin-bottom: -1% }
+
+ion-content #courses_plans .course_plan ion-item {
+    border: 3px solid #f2f7ec;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    --padding-top: 6px;
+    --padding-bottom: 6px;
+}
+
+ion-content #courses_plans .course_plan .plan_duration ,
+ion-content #courses_plans .course_plan .plan_price{ font-weight: bold;color: #000 }
+
+ion-content #courses_plans .course_plan .plan_description { font-weight: bold ; color: #c4c4c6 }
+
+ion-content #courses_plans .course_plan .plan_price span { font-size: 23px }
+
+ion-content #courses_plans .recommended_plan ion-item{
+    border: 3px solid #71a033;
+    --background: #f2f7ec;
+    --padding-top: 3px;
+    --padding-bottom: 3px;
+}
+
+ion-content #courses_plans .recommended_plan ion-item .plan_description img { height : 25px }
+
+ion-content #courses_plans .courses_plan_action { margin-top : 10% }
+
+ion-content #courses_plans .courses_plan_action ion-button {
+    --border         : 1px solid #71a033;
+    --background     : #71a033;
+    --border-radius  : 10px;
+    --padding-top    : 25px;
+    --padding-bottom : 25px;
+    text-transform   : none
+}
+
+/* End Courses Plan Style  */
