@@ -1,6 +1,9 @@
 ion-header {
     padding-top: 2.5rem !important;
+    background-color: #f2f7ec;
 }
+
+ion-header ion-toolbar { --background: #f2f7ec }
 
 ion-header ion-back-button {
     display: block !important ;
@@ -8,12 +11,13 @@ ion-header ion-back-button {
 }
 
 ion-header ion-title {
-    padding-left: 0 !important
+    padding-left: 0 !important;
 }
 
 ion-header ion-text {
     font-weight: bold !important;
-    color : #333 !important
+    color : #333 !important;
+    font-size: 19px;
 }
 
 ion-content #start_learning {
