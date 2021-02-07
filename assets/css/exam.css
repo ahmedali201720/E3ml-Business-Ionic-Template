@@ -1,0 +1,85 @@
+/* Start Style Page Header */
+ion-header {
+    padding-top: 2.5rem !important
+}
+
+ion-header ion-buttons ion-button i {
+    color : #dcdcdd;
+    font-weight: normal !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important;
+    margin-left : 2%
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important;
+    font-size: 22px
+}
+/* End Style Page Header */
+
+/* Start Style Questions */
+
+ion-content #training_details {
+    margin-top: 2%
+}
+
+ion-content #training_details #first_question h2,
+ion-content #training_details #second_question h2,
+ion-content #training_details #third_question h2  {
+    color : #8a8a8e;
+    font-family : 'Tajawal', sans-serif;
+}
+
+ion-content #training_details #first_question p,
+ion-content #training_details #second_question p,
+ion-content #training_details #third_question p  {
+    color : #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family : 'Tajawal', sans-serif;
+}
+
+ion-content #training_details #first_question ion-icon,
+ion-content #training_details #second_question ion-icon ,
+ion-content #training_details #third_question ion-icon  {
+    color : #dcdcdd
+}
+
+ion-content #training_details #first_question ion-list ion-item,
+ion-content #training_details #second_question ion-list ion-item  ,
+ion-content #training_details #third_question ion-list ion-item  {
+    border : 2px solid #f5f5f7;
+    border-radius: 8px;
+    margin : 3% auto;
+    width: 90%
+}
+
+/* End Style Questions */
+
+/* Start Style Exam Correction */
+
+ion-content #exam_correction {
+    margin-top: 2%;
+    padding-bottom: 20px;
+}
+
+ion-content #exam_correction ion-text {
+   color : #8a8a8e
+}
+
+ion-content #exam_correction ion-button {
+    text-transform: none ;
+    font-weight : bold ;
+    --padding-bottom: 20px;
+    --padding-top: 20px;
+    --padding-start: 20px;
+    --padding-end: 20px;
+    --background: #71a033;
+    font-family : 'Tajawal', sans-serif;
+    font-size: 15px
+}
+
+/* End Style Exam Correction */
