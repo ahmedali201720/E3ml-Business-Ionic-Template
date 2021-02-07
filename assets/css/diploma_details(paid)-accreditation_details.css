@@ -1,0 +1,105 @@
+/* Start Style Page Header */
+ion-header {
+    padding-top: 2.5rem !important
+}
+
+ion-header ion-back-button {
+    display: block !important;
+    color : #71a033 !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important;
+    font-size: 18px;
+}
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+/* Start Style Business Certificates */
+
+ion-content #obtain_business_certificates p {
+    margin-left : 1%;
+    line-height : 2rem;
+    font-weight : normal;
+    color       : #000;
+    font-family : 'Tajawal', sans-serif;
+    font-size   : 18px
+}
+
+/* End Style Business Certificates */
+
+/* Start Style EBU University */
+
+ion-content #EBU_University {
+    margin-top: 6%
+}
+
+ion-content #EBU_University p {
+    margin-left : 1%;
+    line-height : 2rem;
+    font-weight : normal;
+    color       : #000;
+    font-family : 'Tajawal', sans-serif;
+    font-size   : 18px;
+    margin-top  : 5%
+}
+
+/* End Style EBU University */
+
+/* Start Style EBU University Partners */
+
+ion-content #ebu_university_partners { margin-top: 6% }
+
+ion-content #ebu_university_partners p {
+    margin-left: 4%;
+    font-weight : normal;
+    font-family : 'Tajawal', sans-serif;
+    font-size: 17px;
+}
+
+ion-content #ebu_university_partners p a {
+    text-decoration: none;
+    color : #71a033
+}
+
+/* End Style EBU University Partners */
+
+/* Start Style EBU University */
+
+ion-content #ebu_certificate ion-img {
+    display      : block;
+    margin-right : auto;
+    margin-left  : auto
+}
+
+ion-content #contact_ebu_certificate {
+    text-align  : center;
+    font-family : 'Tajawal', sans-serif;
+    color       : #8a8a8e
+}
+
+/* End Style EBU University */
+
+/* Start Style Connection With EBU */
+
+
+ion-content #contact_us { margin-top : 10% ; margin-bottom: 10%;}
+
+ion-content #contact_us ion-button {
+    --border         : 1px solid #71a033;
+    --background     : #71a033;
+    --border-radius  : 10px;
+    --padding-top    : 25px;
+    --padding-bottom : 25px;
+    text-transform   : none;
+}
+
+/* End  Style Connection With EBU */
+
+/* End Style Page Content */
