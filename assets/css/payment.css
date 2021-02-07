@@ -79,3 +79,22 @@ ion-header {
     width: 100%;
     --background: #71a033;
 }
+
+.amount-to-pay {
+    padding: 0 0.5rem;
+    margin: 0.325rem 0;
+}
+
+.total-amount-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.paid-amount {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
