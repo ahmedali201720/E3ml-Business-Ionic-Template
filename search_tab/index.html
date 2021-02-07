@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Search Tab </title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/search_tab.css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="stylesheet" href='../assets/icons/css/all.css'>
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+
+<ion-app>
+
+    <!-- Start Page Header -->
+    <ion-header class = "ion-no-border" >
+        <ion-toolbar>
+            <ion-grid>
+                <ion-row>
+                    <ion-col size = "12" >
+                        <div id = "search_bar" >
+                            <ion-searchbar
+                                animated     = "true"
+                                class        = "searchbarinput"
+                                mode         = "ios"
+                                autocomplete = "on"
+                            >
+                            </ion-searchbar>
+                        </div>
+                    </ion-col>
+                </ion-row>
+            </ion-grid>
+        </ion-toolbar>
+    </ion-header>
+    <!-- End Page Header -->
+
+    <!-- Start Page Content -->
+
+    <ion-content>
+
+         <!-- Start Section Previous -->
+
+         <section id = "previous" >
+             <ion-grid>
+                 <ion-row>
+                     <ion-col size = "12" >
+
+                         <div id = "previous-header" >
+                             <h3>Previous</h3>
+                         </div>
+
+                         <div id = "previous-items" >
+                             <div class = "previous-item" >
+                                 <ion-item lines = "none" >
+                                     <div>
+                                         <img src = "../assets/img/search_tab_images/search_tab_image_1.png" alt = "search_tab_image_1" />
+                                     </div>
+                                     <ion-label class="ion-text-wrap" >
+                                         <p class = "item-title" >
+                                             <ion-text>Marketing</ion-text>
+                                         </p>
+                                     </ion-label>
+                                     <div>
+                                         <img src = "../assets/img/search_tab_images/search_tab_image_2.png" alt = "search_tab_image_2" />
+                                     </div>
+                                 </ion-item>
+                             </div>
+
+                             <div class = "previous-item" >
+                                 <ion-item lines = "none" >
+                                     <div>
+                                         <img src = "../assets/img/search_tab_images/search_tab_image_1.png" alt = "search_tab_image_1" />
+                                     </div>
+                                     <ion-label class="ion-text-wrap" >
+                                         <p class = "item-title" >
+                                             <ion-text>Real Estate Marketing</ion-text>
+                                         </p>
+                                     </ion-label>
+                                     <div>
+                                         <img src = "../assets/img/search_tab_images/search_tab_image_2.png" alt = "search_tab_image_2" />
+                                     </div>
+                                 </ion-item>
+                             </div>
+
+                             <div class = "previous-item" >
+                                 <ion-item lines = "none" >
+                                     <div>
+                                         <img src = "../assets/img/search_tab_images/search_tab_image_1.png" alt = "search_tab_image_1" />
+                                     </div>
+                                     <ion-label class="ion-text-wrap" >
+                                         <p class = "item-title" >
+                                             <ion-text>Supply Chain Management</ion-text>
+                                         </p>
+                                     </ion-label>
+                                     <div>
+                                         <img src = "../assets/img/search_tab_images/search_tab_image_2.png" alt = "search_tab_image_2" />
+                                     </div>
+                                 </ion-item>
+                             </div>
+                         </div>
+
+                     </ion-col>
+                 </ion-row>
+             </ion-grid>
+         </section>
+
+         <!-- End Section Previous -->
+
+         <!-- Start Section Specialties -->
+
+         <section id = "specialties" >
+             <ion-grid>
+                 <ion-row>
+                     <ion-col size = "12" >
+
+                         <div id = "specialties-header" >
+                             <h3>Specialties</h3>
+                         </div>
+
+                         <div id = "specialities_chips" >
+                             <ion-chip class = "specialty_chip" outline = "true" >
+                                 <ion-label>Quality Management</ion-label>
+                             </ion-chip>
+
+                             <ion-chip class = "specialty_chip" outline = "true" >
+                                 <ion-label>Supply Chain Management</ion-label>
+                             </ion-chip>
+
+                             <ion-chip class = "specialty_chip" outline = "true" >
+                                 <ion-label>customers service</ion-label>
+                             </ion-chip>
+
+                             <ion-chip class = "specialty_chip" outline = "true" >
+                                 <ion-label>Marketing</ion-label>
+                             </ion-chip>
+
+                             <ion-chip class = "specialty_chip" outline = "true" >
+                                 <ion-label>Entrepreneurship</ion-label>
+                             </ion-chip>
+                         </div>
+
+                     </ion-col>
+                 </ion-row>
+             </ion-grid>
+         </section>
+
+         <!-- End Section Specialties -->
+
+        <!-- Start Section Start Learning -->
+
+        <section id = "start_learning" >
+
+            <ion-grid>
+
+                <ion-row>
+
+                    <ion-col size = "12" >
+
+                        <ion-item class = "learning_item" lines = "none" >
+                            <ion-label class="ion-text-wrap" >
+                                <h2>Courses</h2>
+                                <p>
+                                    <ion-text>More than 150 course in different fields</ion-text>
+                                </p>
+                            </ion-label>
+                            <ion-icon size = "small" name = "chevron-forward-outline" slot = "end" ></ion-icon>
+                        </ion-item>
+
+                        <ion-item class = "learning_item" lines = "none" >
+                            <ion-label class="ion-text-wrap" >
+                                <h2>Qualification for international certificates</h2>
+                                <p>
+                                    <ion-text>More than 30 qualifications</ion-text>
+                                </p>
+                            </ion-label>
+                            <ion-icon size = "small" name = "chevron-forward-outline" slot = "end" ></ion-icon>
+                        </ion-item>
+
+                        <ion-item class = "learning_item" lines = "none" >
+                            <ion-label class="ion-text-wrap" >
+                                <h2>MBA</h2>
+                                <p>
+                                    <ion-text>Learn with experts</ion-text>
+                                </p>
+                            </ion-label>
+                            <ion-icon size = "small" name = "chevron-forward-outline" slot = "end" ></ion-icon>
+                        </ion-item>
+
+                        <ion-item class = "learning_item" lines = "none" >
+                            <ion-label class="ion-text-wrap" >
+                                <h2>Diplomas</h2>
+                                <p>
+                                    <ion-text>Browse dozens of fields</ion-text>
+                                </p>
+                            </ion-label>
+                            <ion-icon size = "small" name = "chevron-forward-outline" slot = "end" ></ion-icon>
+                        </ion-item>
+
+                    </ion-col>
+
+                </ion-row>
+
+            </ion-grid>
+
+        </section>
+
+        <!-- Start Section Start Learning -->
+
+    </ion-content>
+
+    <!-- End Page Content -->
+
+</ion-app>
+
+<!--<script src="../assets/js/jquery/jquery-3.5.1.js"></script>-->
+<!-- <script src="../assets/js/home.js"></script> -->
+
+</body>
+
+</html>
