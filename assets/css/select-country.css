@@ -1,0 +1,66 @@
+* {
+    font-family: 'tajawal';
+}
+
+ion-header {
+    padding: 0 0.375rem;
+}
+
+.header-back-button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.925rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.header-icon {
+    color: #71a033;
+    padding: 0 0.325rem;
+}
+
+.search-container {
+    padding: 0.325rem 0.625rem;
+    margin-top: 0.625rem;
+}
+
+.country-container {
+    padding: 0 0.625rem;
+}
+
+.country-search {
+    font-family: 'FontAwesome', 'tajawal';
+}
+
+.country-item {
+    --padding-start: 0;
+    --padding-end: 0;
+    --border-color: rgb(241, 237, 237);
+}
+
+.country-img {
+    width: 20px;
+    height: auto;
+    margin: 0 0.325rem;
+}
+
+.country-check {
+    --background-checked: #71a033;
+    --checkmark-width: 2px;
+    --transition: 0.75s;
+    --border-radius: 50%;
+    --border-color-checked: #71a033;
+    margin: 0;
+}
+
+.country-label {
+    font-size: 14px !important;
+}
+
+.country-search {
+    border: 1px solid rgb(204, 203, 203);
+    border-radius: 5px;
+    --padding-start: 1rem;
+}

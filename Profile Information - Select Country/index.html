@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Select Country</title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/select-country.css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="stylesheet" href='../assets/icons/css/all.css'>
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+
+    <ion-app>
+
+        <ion-header>
+            <ion-toolbar>
+                <a href="#" class="header-back-button">
+                    <ion-icon slot="start" name="close-outline" class="header-icon"></ion-icon>
+                    Select Country
+                </a>
+            </ion-toolbar>
+        </ion-header>
+
+        <ion-content>
+
+            <form action="" class="search-container">
+                <ion-grid>
+                    <ion-row>
+                        <ion-col size="12">
+                            <ion-input id="search" type="text" class="country-search"
+                                placeholder="&#xf002; Search countries" clear-input>
+                            </ion-input>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </form>
+
+            <form class="country-container">
+
+                <ion-grid>
+
+                    <ion-row>
+
+                        <!-- ksa -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/saudia.png"></ion-img>
+                                <ion-label class="country-label">Saudi Arabia (+<span>966</span>)</ion-label>
+                                <ion-checkbox id="ksa" class="country-check" slot="end" name="country" value="966">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- egypt -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/egypt.png"></ion-img>
+                                <ion-label class="country-label">Egypt (+<span>20</span>)</ion-label>
+                                <ion-checkbox id="egypt" class="country-check" slot="end" name="country" value="20"
+                                    checked>
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Algeria -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/algeria.png"></ion-img>
+                                <ion-label class="country-label">Algeria (+<span>20</span>)</ion-label>
+                                <ion-checkbox id="algeria" class="country-check" slot="end" name="country" value="20">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Kuwait -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/kuwait.png"></ion-img>
+                                <ion-label class="country-label">Kuwait (+<span>965</span>)</ion-label>
+                                <ion-checkbox id="kuwait" class="country-check" slot="end" name="country" value="965">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Jordan -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/jordan.png"></ion-img>
+                                <ion-label class="country-label">Jordan (+<span>962</span>)</ion-label>
+                                <ion-checkbox id="jordan" class="country-check" slot="end" name="country" value="962">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Iraq -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/iraq.png"></ion-img>
+                                <ion-label class="country-label">Iraq (+<span>964</span>)</ion-label>
+                                <ion-checkbox id="iraq" class="country-check" slot="end" name="country" value="964">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Qatar -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/qatar.png"></ion-img>
+                                <ion-label class="country-label">Qatar (+<span>974</span>)</ion-label>
+                                <ion-checkbox id="qatar" class="country-check" slot="end" name="country" value="974">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Sudan -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/sudan.png"></ion-img>
+                                <ion-label class="country-label">Sudan (+<span>249</span>)</ion-label>
+                                <ion-checkbox id="sudan" class="country-check" slot="end" name="country" value="249">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Oman -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/oman.png"></ion-img>
+                                <ion-label class="country-label">Oman (+<span>968</span>)</ion-label>
+                                <ion-checkbox id="oman" class="country-check" slot="end" name="country" value="968">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- UAE -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/uae.png"></ion-img>
+                                <ion-label class="country-label">UAE (+<span>971</span>)</ion-label>
+                                <ion-checkbox id="uae" class="country-check" slot="end" name="country" value="971">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Lebanon -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/lebanon.png"></ion-img>
+                                <ion-label class="country-label">Lebanon (+<span>961</span>)</ion-label>
+                                <ion-checkbox id="lebanon" class="country-check" slot="end" name="country" value="961">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Yemen -->
+                        <ion-col size="12">
+                            <ion-item class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/yemen.png"></ion-img>
+                                <ion-label class="country-label">Yemen (+<span>961</span>)</ion-label>
+                                <ion-checkbox id="yemen" class="country-check" slot="end" name="country" value="961">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Libya -->
+                        <ion-col size="12">
+                            <ion-item lines="none" class="country-item">
+                                <ion-img class="country-img" src="../assets/img/countries/libya.png"></ion-img>
+                                <ion-label class="country-label">Libya (+<span>218</span>)</ion-label>
+                                <ion-checkbox id="libya" class="country-check" slot="end" name="country" value="218">
+                                </ion-checkbox>
+                            </ion-item>
+                        </ion-col>
+
+                    </ion-row>
+
+                </ion-grid>
+
+            </form>
+
+        </ion-content>
+
+    </ion-app>
+
+    <script src="../assets/icons/js/font-kit.js"></script>
+    <script src="../assets/js/jquery/jquery-3.5.1.js"></script>
+    <script src="../assets/js/home.js"></script>
+
+</body>
+
+</html>
