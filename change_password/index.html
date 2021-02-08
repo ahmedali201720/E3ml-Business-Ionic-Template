@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Account - Change Password </title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/change_password.css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+
+<ion-app>
+
+    <!-- Start Page Header -->
+    <ion-header class = "ion-no-border" >
+        <ion-toolbar>
+            <ion-buttons slot = "start" >
+                <ion-back-button
+                        icon  = "chevron-back-outline" >
+                </ion-back-button>
+            </ion-buttons>
+            <ion-title>
+                <ion-text> Change password </ion-text>
+            </ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <!-- End Page Header -->
+
+    <!-- Start Page Content -->
+
+    <ion-content>
+
+            <section id = "change_password" >
+                <ion-grid>
+                    <ion-row>
+                        <ion-col size = "12" >
+
+                            <form id = "change_account_password" >
+
+                                <!-- Start Entering Current Password -->
+
+                                <div id = "current_password" >
+                                    <ion-item lines = "none" >
+                                        <ion-label position="stacked">Current password</ion-label>
+                                        <ion-input type = "password" id = "current_password" placeholder = "Type your current password" ></ion-input>
+                                        <ion-icon name = "eye" slot = "end" size = "large" ></ion-icon>
+                                    </ion-item>
+                                </div>
+
+                                <!-- End Entering Current Password  -->
+
+                                <!-- Start Entering New Password -->
+
+                                <div id = "new_password" >
+                                    <ion-item lines = "none" >
+                                        <ion-label position="stacked">New password</ion-label>
+                                        <ion-input type = "password" id = "new_password" placeholder = "Type a new password" ></ion-input>
+                                        <ion-icon name = "eye" slot = "end" size = "large" ></ion-icon>
+                                    </ion-item>
+                                </div>
+
+                                <!-- End Entering New Password  -->
+
+                                <!-- Start Change Password Action -->
+
+                                <div id = "changePasswordAction" >
+                                    <ion-button expand = "block" >
+                                        Change password
+                                    </ion-button>
+                                </div>
+
+                                <!-- End Change Password Action -->
+
+                            </form>
+
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </section>
+
+    </ion-content>
+
+    <!-- End Page Content -->
+
+</ion-app>
+
+<!--<script src="../assets/js/jquery/jquery-3.5.1.js"></script>-->
+<!-- <script src="../assets/js/home.js"></script> -->
+
+</body>
+
+</html>
