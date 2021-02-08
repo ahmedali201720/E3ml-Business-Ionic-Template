@@ -1,0 +1,94 @@
+/* Start Style Page Header */
+ion-header {
+    padding-top: 2.5rem;
+}
+
+ion-header ion-back-button {
+    display : block;
+    color   : #71a033
+}
+
+ion-header #search_bar {
+    margin-top : 4%
+}
+
+ion-header #search_bar ion-searchbar {
+    --background        : #f5f5f7;
+    --placeholder-color : #c4c4c6;
+    --icon-color        : #c4c4c6;
+    --border-radius     : 10px;
+    --color             : #333
+}
+
+ion-header ion-toolbar:first-child {
+    margin-bottom : 3%
+}
+
+ion-header #tabs ion-segment-button {
+    text-transform  : none;
+    font-weight     : bold;
+    --color-checked : #71a033
+}
+
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+/* Start Style Course Details */
+
+ion-content #courses .course_details { margin-top: 2% }
+
+ion-content #courses .course_details .course_image {
+    position: relative;
+}
+
+ion-content #courses .course_details .course_image .course_hours {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #777;
+    color: #FFF;
+    padding: 6px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity : 0.8;
+}
+
+ion-content #courses .course_details ion-label {
+    margin-left: 5%;
+    margin-top: 3%
+}
+
+ion-content #courses .course_details ion-label h3 {
+    color : #8a8a8e;
+    font-weight: bold
+}
+
+ion-content #courses .course_details ion-label p {
+    color : #000;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+ion-content #courses .course_details .course_rate { overflow: hidden ; margin-top: 5%}
+
+ion-content #courses .course_details .course_rate .icons_rate ,
+ion-content #courses .course_details .course_rate .total_rate_count { float : left }
+
+ion-content #courses .course_details .course_rate .total_rate_count { margin-left: 2% ; color : #8a8a8e }
+
+ion-content #courses .course_details .course_rate .clearfix { clear: both }
+
+ion-content #courses .course_details .course_rate ion-icon { color : #ffaa00 }
+
+ion-content #courses .course_details ion-item { position: relative }
+
+ion-content #courses .course_details ion-item .course_more_details {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* End Style Course Details */
+
+/* End Style Page Content */
