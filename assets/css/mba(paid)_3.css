@@ -1,0 +1,56 @@
+/* Start Style Page Header */
+ion-header {
+    padding-top: 2.5rem !important;
+}
+
+ion-header ion-back-button {
+    display: block !important ;
+    color : #71a033 !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important
+}
+
+ion-header ion-toolbar:first-child {
+    margin-bottom : 3%
+}
+
+ion-header #tabs ion-segment-button {
+    text-transform  : none;
+    font-weight     : bold;
+    --color-checked : #71a033
+}
+
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+/* Start Style Course Details */
+
+ion-content #mba .mba_details { margin-top: 2% }
+
+ion-content #mba .mba_details ion-label {
+    margin-left: 5%;
+    margin-top: 3%
+}
+
+ion-content #mba .mba_details ion-label h3 {
+    color : #000;
+    font-weight: bold;
+}
+
+ion-content #mba .mba_details ion-label p {
+    color : #8a8a8e;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+/* End Style Course Details */
+
+/* End Style Page Content */
