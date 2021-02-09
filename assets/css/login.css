@@ -41,6 +41,16 @@ ion-content ion-item ion-input {
     border-radius: 5px !important;
 }
 
+ion-content #password ion-item {
+    position: relative;
+}
+
+ion-content #password ion-item ion-icon {
+    position: absolute;
+    right   : 6%;
+    bottom  : 0
+}
+
 ion-content #forgot_password {
     text-align : center !important;
     margin-top : 1rem !important
