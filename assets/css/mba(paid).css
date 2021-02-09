@@ -33,19 +33,29 @@ ion-header #tabs ion-segment-button {
 
 /* Start Style Course Details */
 
-ion-content #mba .mba_details { margin-top: 2% }
+/* start just for test */
 
-ion-content #mba .mba_details ion-label {
+#mba_units { display: none}
+
+/* end just for test */
+
+ion-content #mba_units .mba_details ,
+ion-content #mba_assistance_courses .mba_details { margin-top: 2% }
+
+ion-content #mba_units .mba_details ion-label ,
+ion-content #mba_assistance_courses .mba_details ion-label {
     margin-left: 5%;
     margin-top: 3%
 }
 
-ion-content #mba .mba_details ion-label h3 {
+ion-content #mba_units .mba_details ion-label h3 ,
+ion-content #mba_assistance_courses .mba_details ion-label h3 {
     color : #000;
     font-weight: bold;
 }
 
-ion-content #mba .mba_details ion-label p {
+ion-content #mba_units .mba_details ion-label p ,
+ion-content #mba_assistance_courses .mba_details ion-label p  {
     color : #8a8a8e;
     margin-top: 5%;
     font-weight: bold;
