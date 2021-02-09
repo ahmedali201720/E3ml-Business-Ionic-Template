@@ -28,6 +28,16 @@ ion-content ion-item ion-label {
     color : #8a8a8e !important;
 }
 
+ion-content #password ion-item {
+    position: relative
+}
+
+ion-content #password ion-item ion-icon {
+    position : absolute;
+    right    : 6%;
+    bottom   : 0
+}
+
 ion-content ion-item ion-input {
     display: inline-block !important;
     width: 100% !important;
