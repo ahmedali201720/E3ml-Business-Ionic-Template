@@ -1,0 +1,93 @@
+/* Start Style Page Header */
+ion-header {
+    padding-top: 2.5rem;
+}
+
+ion-header ion-back-button {
+    display : block;
+    color   : #71a033
+}
+
+ion-header #search_bar {
+    margin-top : 4%
+}
+
+ion-header #search_bar ion-searchbar {
+    --background        : #f5f5f7;
+    --placeholder-color : #c4c4c6;
+    --icon-color        : #c4c4c6;
+    --border-radius     : 10px;
+    --color             : #333
+}
+
+ion-header ion-toolbar:first-child {
+    margin-bottom : 3%
+}
+
+ion-header #tabs ion-segment-button {
+    text-transform  : none;
+    font-weight     : bold;
+    --color-checked : #71a033
+}
+
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+/* Start Style International Certificates */
+
+ion-content ion-card { margin-bottom: 5%; }
+
+ion-content .international_certificates_details .international_certificate_image {
+    position: relative
+}
+
+ion-content .international_certificates_details .international_certificate_image .courses {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #777;
+    color: #FFF;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ion-content .international_certificates_details .international_certificate_image .courses img {
+    display: inline-block;
+    margin-bottom: -8%;
+}
+
+ion-content .international_certificates_details ion-card-header ion-card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+ion-content .international_certificates_details ion-card-content .international_certificate_rate { overflow: hidden }
+
+ion-content .international_certificates_details ion-card-content .international_certificate_rate .icons_rate ,
+ion-content .international_certificates_details ion-card-content .international_certificate_rate .total_rate_count { float : left }
+
+ion-content .international_certificates_details ion-card-content .international_certificate_rate .total_rate_count { margin-left: 2% }
+
+ion-content .international_certificates_details ion-card-content .international_certificate_rate .clearfix { clear: both }
+
+ion-content .international_certificates_details ion-card-content .international_certificate_rate ion-icon { color : #ffaa00 }
+
+ion-content .international_certificates_details ion-card-content .international_certificate_price {
+    font-weight: bold;
+    color: #000;
+    margin-top: 2%;
+}
+
+ion-content .international_certificates_details ion-card-content .international_certificate_price ion-text { font-size: 22px }
+
+ion-content .international_certificates_details ion-card-content .international_certificate_price ion-text span{
+    display: inline-block;
+    margin-left: -1%;
+    font-size: 18px
+}
+
+/* Start Style International Certificates */
+
+/* End Style Page Content */
