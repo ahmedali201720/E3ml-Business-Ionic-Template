@@ -1,0 +1,63 @@
+* {
+    font-family: 'tajawal';
+}
+
+ion-header {
+    padding: 0 0.375rem;
+}
+
+.header-back-button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.825rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.header-icon {
+    color: #71a033;
+    padding: 0 0.325rem;
+}
+
+.accreditation-container {
+    padding: 1rem 0.5rem;
+}
+
+.accreditation-card {
+    min-height: 100%;
+    padding: 0.825rem 0.425rem;
+    text-align: center;
+    border: 1px solid #dbdbdd;
+    box-shadow: 0px 0px 5px #dbdbdd;
+    border-radius: 10px;
+}
+
+.accreditation-container-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.accreditation-container-link:hover .accreditation-card {
+    background-color: rgb(253, 241, 237);
+}
+
+.accreditation-card-img img {
+    width: 125px;
+    height: auto;
+}
+
+.accreditation-card-title p {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0.825rem;
+}
+
+.accreditation-card-text p {
+    font-size: 12px;
+    color: #8a8a8e;
+    margin-top: 0.185rem;
+}
