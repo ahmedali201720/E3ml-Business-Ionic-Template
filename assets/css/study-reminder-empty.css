@@ -1,0 +1,51 @@
+* {
+    font-family: 'tajawal';
+}
+
+ion-header {
+    padding: 0 0.375rem;
+}
+
+.header-back-button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.925rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.header-icon {
+    color: #71a033;
+    padding: 0 0.325rem;
+}
+
+.empty-alarm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.825rem;
+}
+
+.empty-alarm-img {
+    padding: 1rem 0;
+    margin: 0.825rem 0;
+}
+
+.add-reminder-button {
+    text-align: center;
+}
+
+.add-reminder-button ion-button {
+    font-size: 30px;
+    margin-bottom: 0.625rem;
+    color: #71a033;
+    --background-hover: transparent;
+}
+
+.reminder-button-label {
+    display: block;
+    color: #71a033;
+}
