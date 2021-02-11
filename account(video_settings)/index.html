@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Video Settings </title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/account(video_settings).css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+
+<ion-app>
+
+    <!-- Start Page Header -->
+    <ion-header class = "ion-no-border" >
+        <ion-toolbar>
+            <ion-buttons slot = "start" >
+                <ion-back-button
+                        icon  = "chevron-back-outline" >
+                </ion-back-button>
+            </ion-buttons>
+            <ion-title>
+                <ion-text> Video settings </ion-text>
+            </ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <!-- End Page Header -->
+
+    <!-- Start Page Content -->
+
+    <ion-content>
+
+          <section id = "video_settings" >
+
+              <ion-grid>
+
+                  <ion-row>
+
+                      <ion-col size = "12" >
+
+                          <!-- Start Video Settings Choices -->
+
+                          <ion-list>
+                              <ion-radio-group value="high_(720p)">
+
+                                  <ion-item lines = "none" >
+                                      <ion-label>High (720p)</ion-label>
+                                      <ion-radio slot="start" value="high_(720p)"></ion-radio>
+                                      <div>
+                                          <ion-text>
+                                              106 MB
+                                          </ion-text>
+                                      </div>
+                                  </ion-item>
+
+                                  <ion-item lines = "none" >
+                                      <ion-label>Medium (360p)</ion-label>
+                                      <ion-radio slot="start" value="medium_(360p)"></ion-radio>
+                                      <div>
+                                          <ion-text>
+                                              73 MB
+                                          </ion-text>
+                                      </div>
+                                  </ion-item>
+
+                                  <ion-item lines = "none" >
+                                      <ion-label>Low (144p)</ion-label>
+                                      <ion-radio slot="start" value="low_(144p)"></ion-radio>
+                                      <div>
+                                          <ion-text>
+                                              27.5 MB
+                                          </ion-text>
+                                      </div>
+                                  </ion-item>
+
+                              </ion-radio-group>
+                          </ion-list>
+
+                          <!-- End Video Settings Choices -->
+
+                          <!-- Start Video Settings Action -->
+
+                          <div id = "videoSettingsAction" >
+                              <ion-button expand = "block" >
+                                  Save
+                              </ion-button>
+                          </div>
+
+                          <!-- End Video Settings Action -->
+
+                      </ion-col>
+
+                  </ion-row>
+
+              </ion-grid>
+
+          </section>
+
+    </ion-content>
+
+    <!-- End Page Content -->
+
+</ion-app>
+
+<!--<script src="../assets/js/jquery/jquery-3.5.1.js"></script>-->
+<!-- <script src="../assets/js/home.js"></script> -->
+
+</body>
+
+</html>
