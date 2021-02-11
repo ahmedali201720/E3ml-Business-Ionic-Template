@@ -1,0 +1,84 @@
+/* Start Style Page Header */
+
+ion-header {
+    padding-top: 2.5rem !important;
+}
+
+ion-header ion-back-button {
+    display: block !important ;
+    color : #71a033 !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important
+}
+
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+/* Start Style Certificate Completion */
+
+ion-content #certificate_completion p {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 17px;
+}
+
+ion-content #certificate_completion p#email {
+    text-align: center;
+    font-weight: bold;
+    color: #71a033;
+    font-size: 16px;
+}
+
+/* End Style Certificate Completion */
+
+/* Start Style Certificate Image */
+
+ion-content #certificate_image {
+    padding-bottom: 20%
+}
+
+ion-content #certificate_image img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* End Style Certificate Image */
+
+/* Start Style Certified Certificate */
+
+ion-content #certified_certificate_from {
+    background-color: #f5f5f7;
+}
+
+ion-content #certified_certificate_from h5,
+ion-content #certified_certificate_from p {
+    margin-left: 6%;
+}
+
+ion-content #certified_certificate_from h5 {
+    font-weight: bold;
+    color : #000
+}
+
+ion-content #certified_certificate_from p {
+   color : #7e7e7e
+}
+
+ion-content #certified_certificate_from .description p {
+    line-height: 1.5em;
+    margin-bottom: 0;
+}
+
+/* End Style Certified Certificate */
+
+/* End Style Page Content */
