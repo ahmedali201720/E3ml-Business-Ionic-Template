@@ -1,0 +1,52 @@
+* {
+    font-family: 'tajawal';
+}
+
+ion-header {
+    padding: 0 0.375rem;
+}
+
+.header-back-button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.925rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.header-icon {
+    color: #71a033;
+    padding: 0 0.325rem;
+}
+
+.alarm-container {
+    padding: 1rem
+}
+
+.reminder-item {
+    border: 1px solid #f5f5f7;
+    border-radius: 10px;
+    margin: 0.625rem 0;
+}
+
+.reminder-item ion-toggle {
+    width: 40px;
+    height: 20px;
+}
+
+.reminder-item ion-toggle:checked .reminder-item .reminder-time {
+    color: gray !important;
+}
+
+.reminder-item .reminder-time {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.reminder-item .reminder-time-indicator {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8a8a8e;
+}

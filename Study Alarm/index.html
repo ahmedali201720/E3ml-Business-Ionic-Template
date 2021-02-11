@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Study Alarm</title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/study-alarm.css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+
+    <ion-app>
+
+        <ion-header>
+            <ion-toolbar>
+                <a href="#" class="header-back-button">
+                    <ion-icon slot="start" name="chevron-back-outline" class="header-icon"></ion-icon>
+                    Study Reminder
+                </a>
+            </ion-toolbar>
+        </ion-header>
+
+        <ion-content>
+
+            <div class="alarm-container">
+
+                <div class="reminder-control-container">
+
+                    <ion-button size="small">
+                        <ion-icon slot="icon-only" name="add"></ion-icon>
+                    </ion-button>
+                    <ion-button size="small" color="danger">clear All</ion-button>
+
+                </div>
+
+                <ion-list class="reminder-list" lines="none">
+                    <ion-item class="reminder-item">
+                        <ion-label class="reminder-time">
+                            8:00
+                            <span class="reminder-time-indicator">AM</span>
+                        </ion-label>
+                        <ion-toggle color="success" slot="end"></ion-toggle>
+                    </ion-item>
+                    <ion-item class="reminder-item">
+                        <ion-label class="reminder-time">
+                            7:00
+                            <span class="reminder-time-indicator">PM</span>
+                        </ion-label>
+                        <ion-toggle color="success" slot="end" checked></ion-toggle>
+                    </ion-item>
+                    <ion-item class="reminder-item">
+                        <ion-label class="reminder-time">
+                            9:00
+                            <span class="reminder-time-indicator">PM</span>
+                        </ion-label>
+                        <ion-toggle color="success" slot="end"></ion-toggle>
+                    </ion-item>
+                    <ion-item class="reminder-item">
+                        <ion-label class="reminder-time">
+                            12.30
+                            <span class="reminder-time-indicator">AM</span>
+                        </ion-label>
+                        <ion-toggle color="success" slot="end" checked></ion-toggle>
+                    </ion-item>
+                </ion-list>
+
+            </div>
+
+        </ion-content>
+
+    </ion-app>
+
+    <script src="../assets/js/jquery/jquery-3.5.1.js"></script>
+    <script src="../assets/js/home.js"></script>
+
+</body>
+
+</html>
