@@ -1,0 +1,54 @@
+/* Start Style Page Header */
+
+ion-header {
+    padding-top: 2.5rem !important;
+}
+
+ion-header ion-back-button {
+    display: block !important ;
+    color : #71a033 !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important
+}
+
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+ion-content #video_settings ion-item { margin-bottom: 1% }
+
+ion-content #video_settings ion-item ion-label {
+    font-weight: bold;
+}
+
+ion-content #video_settings ion-item div ion-text {
+    color : #c4c4c6
+}
+
+ion-content #video_settings ion-item ion-radio {
+    --color-checked: #71a033;
+}
+
+ion-content #videoSettingsAction {
+    padding    : 0 3% 0 3% !important;
+    margin-top : 70% !important
+}
+
+ion-content #videoSettingsAction ion-button {
+    --border         : 1px solid #71a033 !important;
+    --background     : #71a033 !important;
+    --border-radius  : 10px !important;
+    --padding-top    : 25px !important;
+    --padding-bottom : 25px !important;
+    text-transform   : none !important;
+    font-weight      : bold !important
+}
+
+/* End Style Page Content */
