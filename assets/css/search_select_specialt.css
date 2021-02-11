@@ -1,0 +1,41 @@
+/* Start Style Page Header */
+ion-header {
+    padding-top: 2.5rem !important;
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important
+}
+
+ion-header .header-details  { overflow: hidden }
+
+ion-header .header-details  .title ,
+ion-header .header-details  .icon { float : left }
+
+ion-header .header-details  .icon  {
+    margin-top: -0.6%;
+    margin-left: -2%
+}
+
+ion-header .header-details  .clearfix { clear: both }
+
+/* End Style Page Header */
+
+
+/* Start Style Page Content */
+
+ion-content #specialt-items { padding-bottom: 30% }
+
+ion-content #specialt-items .specialt-item { margin-bottom: 2% }
+
+ion-content #specialt-items .specialt-item .item-description ion-text {
+    color : #000;
+    font-size: 17px;
+}
+
+ion-content #specialt-items .specialt-item .item-count ion-text {
+    color : #8a8a8e
+}
+
+/* End Style Page Content */
