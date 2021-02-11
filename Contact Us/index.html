@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Contact Us</title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/contact-us.css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+
+    <ion-app>
+
+        <ion-header>
+            <ion-toolbar>
+                <a href="#" class="header-back-button">
+                    <ion-icon slot="start" name="chevron-back-outline" class="header-icon"></ion-icon>
+                    Contact Us
+                </a>
+            </ion-toolbar>
+        </ion-header>
+
+        <ion-content>
+
+            <div class="contact-us-container">
+
+                <div class="contact-us-header">
+                    <ion-label class="contact-us-title">
+                        We are always happy to answer your inquiries and help you make the most of our services.
+                    </ion-label>
+                </div>
+
+            </div>
+
+            <div class="contact-details">
+
+                <ion-grid>
+                    <ion-row>
+                        <ion-col size="6">
+                            <ion-label class="contact-details-label">Inside Egypt</ion-label>
+                            <ion-text class="contact-text">16342</ion-text>
+                        </ion-col>
+                        <ion-col size="6">
+                            <ion-label class="contact-details-label">Outside Egypt</ion-label>
+                            <ion-text class="contact-text">0020221609929</ion-text>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+
+            </div>
+
+            <div class="address-container">
+
+                <ion-grid>
+                    <ion-row>
+
+                        <ion-col size="10" offset="1">
+                            <ion-label class="contact-details-label">Address</ion-label>
+                            <ion-text class="address-title">
+                                <p>1 Ahmed Kamel Street, off Maadi Wireless Street, Cairo Governorate.</p>
+                            </ion-text>
+                        </ion-col>
+
+                        <ion-col size="12">
+                            <div class="address-map-container">
+                                <!-- place the iframe code between here... -->
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d216.01523390258774!2d31.288822017178813!3d29.972424374760852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfc470d19382a98e7!2z2KPZg9in2K_ZitmF2YrYqSDYpdi52YXZhCDYqNmK2LLZhtiz!5e0!3m2!1sar!2seg!4v1612866225162!5m2!1sar!2seg"
+                                    frameborder="0" style="border:0"></iframe>
+                                <!-- ... and here -->
+                            </div>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+
+            <form action="" class="contact-form">
+
+
+                <ion-grid>
+                    <ion-row>
+
+                        <ion-col size="12">
+                            <ion-label class="contact-form-label">
+                                Send a message
+                            </ion-label>
+                        </ion-col>
+
+                        <!-- Full Name -->
+                        <ion-col size="12">
+                            <ion-item class="form-item" lines="none">
+                                <ion-label class="form-label" position="stacked">Full Name</ion-label>
+                                <ion-input name="cardNumber" placeholder="Enter your full name" clear-input type="text"
+                                    required="true">
+                                </ion-input>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Email -->
+                        <ion-col size="12">
+                            <ion-item class="form-item" lines="none">
+                                <ion-label class="form-label" position="stacked">Email</ion-label>
+                                <ion-input name="cardNumber" placeholder="Enter your mail address" clear-input
+                                    type="email" required="true">
+                                </ion-input>
+                            </ion-item>
+                        </ion-col>
+
+                        <!-- Email -->
+                        <ion-col size="12">
+                            <ion-item class="form-item" lines="none">
+                                <ion-label class="form-label" position="stacked">Phone</ion-label>
+                                <ion-input name="cardNumber" placeholder="Enter your phone number" clear-input
+                                    type="tel" required="true">
+                                </ion-input>
+                            </ion-item>
+                        </ion-col>
+
+                    </ion-row>
+                </ion-grid>
+
+            </form>
+
+        </ion-content>
+
+    </ion-app>
+
+    <script src="../assets/js/jquery/jquery-3.5.1.js"></script>
+    <script src="../assets/js/home.js"></script>
+
+</body>
+
+</html>
