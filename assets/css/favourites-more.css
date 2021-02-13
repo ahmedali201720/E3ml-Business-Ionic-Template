@@ -1,0 +1,146 @@
+* {
+    font-family: 'tajawal';
+}
+
+ion-header {
+    padding: 0 0.375rem;
+}
+
+.header-back-button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.header-icon {
+    color: #71a033;
+    padding: 0 0.325rem;
+}
+
+.fav-item {
+    border: 1px solid rgb(235, 231, 231);
+    border-radius: 7px;
+    padding: 0.325rem;
+}
+
+.favourites-container {
+    padding: 0.925rem 0.625rem;
+}
+
+.fav-item-img {
+    position: relative;
+}
+
+.fav-item-img img {
+    display: block;
+    width: 100%;
+    min-height: 72px;
+    height: auto;
+    max-height: 85px;
+    border-radius: 5px;
+}
+
+.course-duration {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.15rem 0.425rem;
+    background-color: #363636a9;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 12px;
+}
+
+.fav-item-text .lecturer {
+    display: block;
+    font-size: 12px;
+    color: #8a8a8e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fav-item-text .title p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    max-height: 30px;
+    overflow: hidden;
+    color: #000000;
+    margin: 1px 0;
+}
+
+.fav-item-text .rating {
+    font-size: 11px;
+}
+
+.fav-item-text .rating .star-icon {
+    font-size: 11px;
+}
+
+.fav-item-text .rating .filled {
+    color: rgb(255, 153, 0);
+}
+
+.fav-item-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.fav-item .more-link {
+    color: #000000;
+}
+
+/* **************************************************************** */
+
+.modal-wrapper {
+    box-shadow: 0 0 3px gray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.ion-overlay-wrapper {
+    margin-top: 900px;
+    border-radius: 10px;
+}
+
+.share-app-container {
+    text-align: center;
+    padding: 0.925rem 0.825rem;
+}
+
+.share-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.225rem;
+}
+
+.share-button:hover {
+    cursor: pointer;
+}
+
+.share-button img {
+    width: 100%;
+    height: auto;
+    max-height: 40px;
+}
+
+.share-label {
+    display: block;
+    margin-bottom: 0.655rem;
+    font-weight: 700;
+}
+
+.action-container {
+    border-top: 1px solid rgb(202, 202, 202);
+}
+
+.action-container ion-button {
+    color: #e92a2a;
+}
