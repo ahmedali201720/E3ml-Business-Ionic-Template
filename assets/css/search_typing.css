@@ -20,9 +20,9 @@ ion-header #search_bar ion-searchbar {
 ion-content #search_typing .search_typing_item { margin-bottom: 1% }
 
 ion-content ion-item ion-label p ion-text {
-    font-weight: bold;
-    font-size: 16px;
-    color : #c4c4c6
+    font-weight : bold;
+    font-size   : 16px;
+    color       : #c4c4c6
 }
 
 ion-content ion-item ion-label p ion-text span {
