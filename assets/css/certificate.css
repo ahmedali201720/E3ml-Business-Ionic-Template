@@ -10,7 +10,7 @@ ion-header {
     display: flex;
     justify-content: start;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 0.925rem;
     font-weight: 700;
     text-decoration: none;
     color: black;
@@ -21,21 +21,23 @@ ion-header {
     padding: 0 0.325rem;
 }
 
-.fav-item {
+/* **************************************************************************************************************** */
+
+.certificate-item {
     border: 1px solid rgb(235, 231, 231);
     border-radius: 7px;
     padding: 0.325rem;
 }
 
-.favourites-container {
+.certificates-container {
     padding: 0.925rem 0.625rem;
 }
 
-.fav-item-img {
+.cert-item-img {
     position: relative;
 }
 
-.fav-item-img img {
+.cert-item-img .main-img {
     display: block;
     width: 100%;
     min-height: 72px;
@@ -44,28 +46,18 @@ ion-header {
     border-radius: 5px;
 }
 
-.course-duration {
+.cert-img-label {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
-    padding: 0.15rem 0.425rem;
-    background-color: #363636a9;
-    color: white;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    font-size: 12px;
+    width: 34px;
+    height: auto;
+    max-height: 28px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
-.fav-item-text .lecturer {
-    display: block;
-    font-size: 12px;
-    color: #8a8a8e;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.fav-item-text .title p {
+.cert-item-text .title p {
     font-size: 14px;
     font-weight: 700;
     line-height: 15px;
@@ -75,23 +67,20 @@ ion-header {
     margin: 1px 0;
 }
 
-.fav-item-text .rating {
-    font-size: 11px;
-}
-
-.fav-item-text .rating .star-icon {
-    font-size: 11px;
-}
-
-.fav-item-text .rating .filled {
-    color: rgb(255, 153, 0);
-}
-
-.fav-item-link {
+.cert-item-link {
     text-decoration: none;
     color: #000000;
 }
 
-.fav-item .more-link {
-    color: #000000;
+.cert-item-text .done-date p {
+    margin: 0.1rem 0;
+    font-size: 12px;
+    color: #8a8a8e;
+}
+
+.cert-item-text .more-link a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #71a033;
 }
