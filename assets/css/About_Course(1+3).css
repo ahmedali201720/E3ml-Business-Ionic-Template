@@ -1,0 +1,57 @@
+/* Start Style Page Header */
+
+ion-header {
+    padding-top: 2.5rem !important
+}
+
+ion-header ion-buttons ion-button i {
+    color : #dcdcdd;
+    font-weight: normal !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important;
+    margin-left : 2%
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important;
+    font-size: 22px
+}
+
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+ion-content #course_overview .overview p {
+    line-height : 1.5rem;
+    font-size   : 15px
+}
+
+ion-content #course_axes .section-header h4 {
+    margin-left: 4%;
+    color: #363636
+}
+
+ion-content #course_axes .axes_details .axe_details i {
+    color : #71a033 ;
+    font-weight: bold;
+    font-size: 13px;
+    display: inline-block;
+    background-color: #f2f7ec;
+    padding: 3px;
+    border-radius: 50%
+}
+
+ion-content #course_axes .axes_details .axe_details p {
+    margin-left: 4%;
+    font-size: 14px;
+    color: #8a8a8e
+}
+
+ion-content #trainer .trainer_details ion-label h2 { font-weight: bold }
+
+ion-content #trainer .trainer_details ion-label p { color : #8a8a8e }
+
+/* End Style Page Content */

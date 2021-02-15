@@ -59,7 +59,7 @@ ion-content #sortBy .sortByDetails .sortByItem {
     padding: 5% 13%;
     margin-right: 2%;
     border-radius: 8px;
-    font-weight: bold;
+    font-weight : bold;
 }
 
 ion-content #sortBy .sortByDetails .sortByItem.active {
