@@ -1,0 +1,22 @@
+* {
+    font-family: 'tajawal';
+}
+
+ion-header {
+    padding: 0 0.375rem;
+}
+
+.header-back-button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.925rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.header-icon {
+    color: #71a033;
+    padding: 0 0.325rem;
+}
