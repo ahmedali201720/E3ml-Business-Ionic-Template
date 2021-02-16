@@ -8,6 +8,7 @@
     <link rel="stylesheet" href='../assets/css/common.css'>
     <link rel="stylesheet" href='../assets/css/learning-free-11.css'>
     <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="stylesheet" href="../assets/icons/css/all.css">
     <link rel="icon" href="../assets/img/logo.png">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
@@ -18,25 +19,94 @@
 
     <ion-app>
 
-        <ion-header>
-            <ion-toolbar>
-                <a href="#" class="header-back-button">
-                    <ion-icon slot="start" name="chevron-back-outline" class="header-icon"></ion-icon>
-                    Learning Lectures-11
-                </a>
-            </ion-toolbar>
-        </ion-header>
+        <ion-view>
+            <div class="lecture-video">
+                <iframe src="https://www.youtube-nocookie.com/embed/Fbps7_mkIT0" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+
+            <div class="lecture-text">
+                <ion-grid>
+                    <ion-row>
+                        <ion-col size-xs="9" size-md="10" size-lg="11">
+                            <div class="text-wrapper">
+                                <ion-label class="subtitle">Lecture 2</ion-label>
+                                <ion-label class="title">Sales and marketing arts</ion-label>
+                            </div>
+                        </ion-col>
+                        <ion-col size-xs="3" size-md="2" size-lg="1">
+                            <div class="lecture-number">
+                                <ion-button fill="clear">
+                                    <span>2</span>/<span>4</span>
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                </ion-button>
+                            </div>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </div>
+        </ion-view>
 
         <ion-content>
 
+            <div class="lecture-details">
 
+                <div class="lecture-tabs-container">
+
+                    <ion-tabs class="lecture-details-tabs">
+
+                        <ion-tab tab="tab-courses">
+                            <ion-nav></ion-nav>
+                        </ion-tab>
+
+                        <ion-tab tab="tab-exams">
+
+                            <ion-nav>
+
+                                <div class="empty-content-wrapper">
+
+                                    <div class="content-img">
+                                        <img src="../assets/img/learning_lectures_free_11.png" alt="">
+                                    </div>
+
+                                    <div class="content-text">
+                                        <ion-label>
+                                            The final exam available on the website only
+                                        </ion-label>
+                                    </div>
+
+                                </div>
+
+                            </ion-nav>
+
+                        </ion-tab>
+
+                        <ion-tab-bar slot="top">
+
+                            <ion-tab-button tab="tab-courses">
+                                <ion-label>Courses</ion-label>
+                            </ion-tab-button>
+
+                            <ion-tab-button tab="tab-exams">
+                                <ion-label>Final Exams</ion-label>
+                            </ion-tab-button>
+
+                        </ion-tab-bar>
+
+                    </ion-tabs>
+
+                </div>
+
+            </div>
 
         </ion-content>
 
     </ion-app>
 
     <script src="../assets/js/jquery/jquery-3.5.1.js"></script>
-    <script src="../assets/js/home.js"></script>
+    <script src="../assets/icons/js/font-kit.js"></script>
 
 </body>
 
