@@ -1,0 +1,130 @@
+/* Start Style Page Header */
+ion-header {
+    padding-top: 2.5rem !important;
+}
+
+ion-header ion-back-button {
+    display: block !important ;
+    color : #71a033 !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important
+}
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+ion-content #trainer_information .trainer_logo ion-label h2 { font-weight: bold }
+
+ion-content #trainer_information .trainer_logo ion-label p { color : #8a8a8e }
+
+ion-content .instructor_courses { margin-left: 5% ; border-right: 2px solid #dcdcdd }
+
+ion-content .instructor_students { margin-left: 10% }
+
+ion-content .instructor_courses ,
+ion-content .instructor_students,
+ion-content .trainer_linkedin  { margin-top: 1.5rem }
+
+ion-content .instructor_courses span:first-child ,
+ion-content .instructor_students span:first-child { color : #000;font-weight: bold }
+
+ion-content .instructor_courses span:last-child ,
+ion-content .instructor_students span:last-child { color : #c4c4c6;font-size: 14px }
+
+ion-content #trainer_information .trainer_linkedin ion-button {
+    text-transform   : none !important;
+    font-weight      : bold !important;
+    --padding-top    : 16px !important;
+    --padding-bottom : 16px !important;
+    --border         : 1px solid #2671b1 !important;
+    --background     : #2671b1 !important;
+    color            : #FFF !important;
+    --border-radius  : 18px;
+}
+
+ion-content #trainer_information #trainer_linkedin { text-align : center !important }
+
+ion-content #trainer_information .trainer_description p { margin-top: 6% ; margin-left: 2%}
+
+ion-content #trainer_information .trainer_description p ion-text {
+    color: #141414;
+    line-height: 1.3rem;
+}
+
+ion-content #trainer_information .courses .header { overflow: hidden ; margin-left: 3% }
+
+ion-content #trainer_information .courses .header .courses-title ,
+ion-content #trainer_information .courses .header .courses-count { float : left }
+
+ion-content #trainer_information .courses .header .courses-title h5 { margin: 0 ; font-weight: bold}
+
+ion-content #trainer_information .courses .header .courses-count ion-text { color : #8a8a8e }
+
+ion-content #trainer_information .courses .header .courses-count { margin-left: 2% ; margin-top: 0.1% }
+
+ion-content #trainer_information .courses .header.clearfix { clear: both }
+
+/* Start Style Course Details */
+
+ion-content #trainer_information .course_details { margin-top: 2% }
+
+ion-content #trainer_information .course_details .course_image {
+    position: relative;
+}
+
+ion-content #trainer_information .course_details .course_image .course_hours {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #777;
+    color: #FFF;
+    padding: 6px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity : 0.8;
+}
+
+ion-content #trainer_information .course_details ion-label {
+    margin-left: 5%;
+    margin-top: 3%
+}
+
+ion-content #trainer_information .course_details ion-label h3 {
+    color : #8a8a8e
+}
+
+ion-content #trainer_information .course_details ion-label p {
+    color : #000;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+ion-content #trainer_information .course_details .course_rate { overflow: hidden ; margin-top: 5%}
+
+ion-content #trainer_information .course_details .course_rate .icons_rate ,
+ion-content #trainer_information .course_details .course_rate .total_rate_count { float : left }
+
+ion-content #trainer_information .course_details .course_rate .total_rate_count { margin-left: 2% ; color : #8a8a8e ; margin-top : -1%}
+
+ion-content #trainer_information .course_details .course_rate .clearfix { clear: both }
+
+ion-content #trainer_information .course_details .course_rate ion-icon { color : #ffaa00 }
+
+ion-content #trainer_information .course_details ion-item { position: relative }
+
+ion-content #trainer_information .course_details ion-item .course_more_details {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* End Style Course Details */
+
+/* End Style Page Content */

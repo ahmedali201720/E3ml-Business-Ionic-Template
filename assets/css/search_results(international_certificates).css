@@ -91,3 +91,47 @@ ion-content .international_certificates_details ion-card-content .international_
 /* Start Style International Certificates */
 
 /* End Style Page Content */
+
+/* Start Responsive Of Page */
+
+@media (min-width: 280px) and (max-width: 653px) {
+
+    ion-header #search_bar {
+        margin-top : 9%
+    }
+
+}
+
+@media (min-width: 540px) and (max-width: 720px) {
+
+    ion-header #search_bar {
+        margin-top: 3%
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+    ion-header #search_bar {
+        margin-top: 2%
+    }
+
+    ion-content .international_certificates_details ion-card-content .international_certificate_price ion-text span {
+        margin-left: 0
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    ion-header #search_bar {
+        margin-top: 2%
+    }
+
+    ion-content .international_certificates_details ion-card-content .international_certificate_price ion-text span {
+        margin-left: 0
+    }
+
+}
+
+/* End Responsive Of Page*/
