@@ -30,3 +30,26 @@ ion-content ion-item ion-label p ion-text span {
 }
 
 /* End Style Page Content */
+
+/* Start Page Responsive */
+
+@media (min-width: 540px) and (max-width: 720px) {
+    ion-header ion-toolbar ion-buttons {
+        margin-top: 2%
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    ion-header ion-toolbar ion-buttons {
+        margin-top: 3%
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    ion-header ion-toolbar ion-buttons {
+        margin-top: 3%
+    }
+}
+
+
+/* End Page Responsive */
