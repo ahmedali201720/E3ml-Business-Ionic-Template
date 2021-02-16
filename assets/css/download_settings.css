@@ -74,3 +74,15 @@ ion-content #downloadSettingsAction ion-button {
 }
 
 /* End Style Page Content */
+
+/* Start Page Responsive */
+
+@media (min-width: 280px) and (max-width: 653px) {
+
+    ion-header ion-title ion-text {
+        font-size: 17px
+    }
+
+}
+
+/* End Page Responsive */
