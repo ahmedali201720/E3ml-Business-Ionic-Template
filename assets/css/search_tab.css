@@ -65,3 +65,43 @@ ion-content #start_learning .learning_item h2 {
 }
 
 /* End Style Start Learning  */
+
+/* Start Responsive Of Page */
+
+@media(min-width: 1024px) and (max-width: 1366px) {
+
+    ion-content #previous .previous-item p {
+        margin-top: 1%;
+    }
+
+    ion-content .previous-item ion-item div:first-child {
+        margin-top: 1.5%;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+
+    ion-content #previous .previous-item p {
+        margin-top: 1%;
+    }
+
+    ion-content .previous-item ion-item div:first-child {
+        margin-top: 1.5%;
+    }
+
+}
+
+@media(min-width: 375px) and (max-width: 812px) {
+
+    ion-content #previous .previous-item p {
+        margin-top: 1%;
+    }
+
+    ion-content .previous-item ion-item div:first-child {
+        margin-top: 1.5%;
+    }
+
+}
+
+/* End Responsive Of Page */
