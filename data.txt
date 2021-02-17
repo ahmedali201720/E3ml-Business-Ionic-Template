@@ -5,3 +5,17 @@ user:Almoasherprojects7
 pass:!@#almoasher#@!pro11
 
 e3ml business : 29.97247926758167, 31.28878513680661
+
+// ******************************************************************************************
+
+1 - contact us
+2 - onboard
+3 - learning-lectures(free)-11
+4 - search courses
+5 - Learning_Q&A (free) – 6
+6 - Confirm paid - MBA
+7 - Subject Details(paid)-5
+8 - learning lectures(free)-10
+9 - learning more(free)-6
+10 - MBA Course Details(paid)-6
+11 - Learning_lectures (free) – 2 
