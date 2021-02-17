@@ -1,0 +1,120 @@
+/* Start Style Page Header */
+
+ion-header {
+    padding-top: 2.5rem !important;
+}
+
+ion-header ion-back-button {
+    display: block !important;
+    color: #71a033 !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color: #333 !important
+}
+
+
+/* End Style Page Header  */
+
+
+/* Start Style Page Content */
+
+ion-content .comment ion-item ion-label,
+ion-content .comment_reply ion-item ion-label {
+    margin-left: 3%;
+    margin-top: 13%
+}
+
+ion-content .comment ion-item ion-label h3,
+ion-content .comment_reply ion-item ion-label h3 {
+    font-weight: bold;
+    color: #000
+}
+
+ion-content .comment ion-item ion-label .time,
+ion-content .comment_reply ion-item ion-label .time {
+    color: #8a8a8e;
+    font-size: 14px;
+}
+
+ion-content .comment ion-item ion-label p,
+ion-content .comment_reply ion-item ion-label p {
+    color: #000;
+    margin-top: 1.5%;
+    font-size: 15px
+}
+
+ion-content .comment ion-item .comment_settings,
+ion-content .comment_reply ion-item .comment_settings {
+    margin-top: -8%
+}
+
+ion-content hr {
+    border-top: 1px solid #f5f5f7;
+    margin: 0;
+}
+
+ion-content .answer {
+    border-top: 2px solid #EEEEEE;
+    box-shadow: 0px 0px 5px 0px #EEEEEE;
+    margin-top: 54%
+}
+
+ion-content .answer ion-item ion-input {
+    display: inline-block !important;
+    width: 100% !important;
+    --padding-top: 12px !important;
+    --padding-bottom: 12px !important;
+    --padding-start: 15px !important;
+    --padding-end: 15px !important;
+    font-weight: normal !important;
+    border: 2px solid #f5f5f7 !important;
+    border-radius: 20px !important;
+    --background: #f5f5f7 !important;
+    --placeholder-color: #8a8a8e;
+    --color: #777;
+    --placeholder-font-weight: normal
+}
+
+ion-content .answer .write_answer {
+    width: 100%;
+    position: relative
+}
+
+ion-content .answer .write_answer div {
+    position: absolute;
+    z-index: 999;
+    top: 23%;
+    right: 5%
+}
+
+
+/* End Style Page Content */
+
+
+/* Start Responsive Of The Page */
+
+@media(min-width: 1024px) and (max-width: 1366px) {
+
+    ion-content .comment ion-item ion-label,
+    ion-content .comment_reply ion-item ion-label {
+        margin-top: 7%
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+
+    ion-content .comment ion-item ion-label,
+    ion-content .comment_reply ion-item ion-label {
+        margin-top: 7%
+    }
+
+}
+
+/* End Responsive Of The Page */

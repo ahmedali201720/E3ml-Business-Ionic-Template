@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Add Comment </title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/add_comment.css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+
+<ion-app>
+
+    <!-- Start Page Header -->
+    <ion-header class = "ion-no-border" >
+        <ion-toolbar>
+            <ion-buttons slot = "start" >
+                <ion-back-button
+                        icon  = "chevron-back-outline" >
+                </ion-back-button>
+            </ion-buttons>
+            <ion-title>
+                <ion-text> Answers </ion-text>
+            </ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <!-- End Page Header -->
+
+    <!-- Start Page Content -->
+
+    <ion-content>
+
+        <!-- Start Comment Section -->
+
+        <section class = "comment" >
+
+            <ion-grid>
+
+                <ion-row>
+
+                    <ion-col size = "12" >
+
+                        <ion-item lines = "none" >
+
+                            <ion-avatar>
+
+                                <img src = "../assets/img/trainer_image.png" alt = "comment_image" />
+
+                            </ion-avatar>
+
+                            <ion-label class = "ion-text-wrap" >
+
+                                <h3>Mohammed El-Baz </h3>
+
+                                <span class = "time" > 5 minutes ago </span>
+
+                                <p>
+                                    <ion-text>
+                                        It sounds interesting to me, but can we <br />
+                                        basically adopt that pattern
+                                    </ion-text>
+                                </p>
+
+                            </ion-label>
+
+                            <div class = "comment_settings" >
+                                <img src = "../assets/img/comment_settings.png" alt = "comment_settings" />
+                            </div>
+
+                        </ion-item>
+
+                    </ion-col>
+
+                </ion-row>
+
+            </ion-grid>
+
+        </section>
+
+        <!-- End Comment Section -->
+
+        <hr />
+
+        <!-- Start Comment Reply Section -->
+
+        <section class = "comment_reply" >
+
+            <ion-grid>
+
+                <ion-row>
+
+                    <ion-col size = "11" offset = "1" >
+
+                        <ion-item lines = "none" >
+
+                            <ion-avatar>
+
+                                <img src = "../assets/img/trainer_image.png" alt = "comment_image" />
+
+                            </ion-avatar>
+
+                            <ion-label class = "ion-text-wrap" >
+
+                                <h3>Mohammed El-Baz </h3>
+
+                                <span class = "time" > Now </span>
+
+                                <p>
+                                    <ion-text>
+                                        From my experience, I think it is acceptable
+                                    </ion-text>
+                                </p>
+
+                            </ion-label>
+
+                            <div class = "comment_settings" >
+                                <img src = "../assets/img/comment_settings.png" alt = "comment_settings" />
+                            </div>
+
+                        </ion-item>
+
+                    </ion-col>
+
+                </ion-row>
+
+            </ion-grid>
+
+        </section>
+
+        <!-- End Comment Reply Section -->
+
+        <hr />
+
+        <!-- Start Section Answer -->
+
+        <section class = "answer" >
+
+            <ion-grid>
+
+                <ion-row>
+
+                    <ion-col size = "12" >
+
+                        <form id = "write_answer_comment" >
+
+                            <ion-item lines = "none" >
+
+                                <ion-avatar style = "margin-right: 2%" >
+                                    <img src = "../assets/img/trainer_image.png" alt = "trainer_image" />
+                                </ion-avatar>
+
+                                <div class = "write_answer" >
+                                    <ion-input type = "text" id = "write_answer" placeholder = "Write your answer" ></ion-input>
+                                    <div>
+                                        <img src = "../assets/img/send_comment_action.png" alt = "send_comment_action" />
+                                    </div>
+                                </div>
+
+                            </ion-item>
+
+                        </form>
+
+                    </ion-col>
+
+                </ion-row>
+
+            </ion-grid>
+
+        </section>
+
+        <!-- End Section Answer -->
+
+
+    </ion-content>
+
+    <!-- End Page Content -->
+
+</ion-app>
+
+<!--<script src="../assets/js/jquery/jquery-3.5.1.js"></script>-->
+<!-- <script src="../assets/js/home.js"></script> -->
+
+</body>
+
+</html>

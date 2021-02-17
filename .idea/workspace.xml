@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="64f9742b-9110-48ad-9912-c256f66f8388" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/myLearningList(filter).css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/myLearningList(filter).css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mba(paid)/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mba(paid)/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <workItem from="1613035773519" duration="19041000" />
       <workItem from="1613293784243" duration="25330000" />
       <workItem from="1613395913616" duration="8488000" />
-      <workItem from="1613470076386" duration="13601000" />
+      <workItem from="1613470076386" duration="33145000" />
     </task>
     <servers />
   </component>
@@ -79,13 +79,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1613470076380" />
-    <state x="456" y="195" key="run.anything.popup" timestamp="1612704414855">
+    <state x="456" y="195" key="run.anything.popup" timestamp="1613560085956">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1612704414855" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1613476522876">
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1613560085956" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1613567408099">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1613476522876" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1613567408099" />
   </component>
 </project>
