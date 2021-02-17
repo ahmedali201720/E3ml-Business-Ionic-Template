@@ -123,3 +123,23 @@ ion-content #showResult .showResultAction ion-button {
 /* End Style Show Results Action */
 
 /* End Style Page Content */
+
+/* Start Responsive Of Page */
+
+@media (min-width: 280px) and (max-width: 653px) {
+
+    ion-content #sortBy .sortByDetails .sortByItem {
+
+        margin-bottom: 2%
+
+    }
+
+    ion-content #showResult .showResultAction {
+
+        margin-bottom: 20%
+
+    }
+
+}
+
+/* End Responsive Of Page */
