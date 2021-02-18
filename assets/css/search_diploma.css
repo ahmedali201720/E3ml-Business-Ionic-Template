@@ -1,81 +1,187 @@
+* {
+    font-family: 'tajawal';
+}
+
 ion-header {
-    padding-top: 2.5rem !important;
+    padding: 0 0.375rem;
 }
 
-ion-header ion-back-button {
-    display: block !important ;
-    color : #71a033 !important
+.header-form {
+    height: 50px;
 }
 
-ion-header ion-title {
-    padding-left: 0 !important
+.header-back-button {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+    --padding-start: 0;
+    --padding-end: 0;
 }
 
-ion-header ion-text {
-    font-weight: bold !important;
-    color : #333 !important
+.header-form .submit-button {
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
 }
 
-ion-content ion-card { margin-bottom: 5%; }
-
-ion-content .diploma_details .diploma_image {
-    position: relative
+.header-form .submit-button i {
+    font-size: 0.825rem;
+    font-weight: 700;
+    color: gray;
 }
 
-ion-content .diploma_details .diploma_image .units {
+.header-form ion-input {
+    border: 1px solid #f5f5f7;
+    --padding-start: 0.325rem;
+    font-size: 14px;
+    border-radius: 7px;
+    height: 40px;
+}
+
+.header-icon {
+    color: #71a033;
+    padding: 0 0.325rem;
+}
+
+/* **************************************************************************** */
+
+.search-results-container {
+    padding: 0.625rem 0.825rem;
+}
+
+.search-results-container ion-segment-button {
+    --indicator-color: #71a033;
+}
+
+.center-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ***************************************************************************** */
+
+.diplomas-container {
+    padding: 0.325rem 0.625rem;
+}
+
+.diploma-card {
+    position: relative;
+    width: 100%;
+    max-width: 275px;
+    height: auto;
+    margin: 0.75rem 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.diploma-card-img-container {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.diploma-card-img {
+    width: 100%;
+    height: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.diploma-card-img:hover {
+    transform: scale(1.04);
+}
+
+.diploma-courses-label {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #777;
-    color: #FFF;
-    padding: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
+    padding: 0.325rem 0.5rem;
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: white;
+    background-color: #777676;
+    border-top-right-radius: 5px;
 }
 
-ion-content .diploma_details .diploma_image .units img {
-    display: inline-block;
-    margin-bottom: -8%;
+.diploma-card-link {
+    color: black;
+    text-decoration: none;
 }
 
-ion-content .diploma_details ion-card-header ion-card-title {
-    font-weight: bold;
-    color: #333;
+.course-video-name {
+    font-size: 12px;
+    color: #8a8a8e;
 }
 
-ion-content .diploma_details ion-card-content .diploma_rate { overflow: hidden }
-
-ion-content .diploma_details ion-card-content .diploma_rate .icons_rate ,
-ion-content .diploma_details ion-card-content .diploma_rate .total_rate_count { float : left }
-
-ion-content .diploma_details ion-card-content .diploma_rate .total_rate_count { margin-left: 2% }
-
-ion-content .diploma_details ion-card-content .diploma_rate .clearfix { clear: both }
-
-ion-content .diploma_details ion-card-content .diploma_rate ion-icon { color : #ffaa00 }
-
-ion-content .diploma_details ion-card-content .diploma_price {
-    font-weight: bold;
-    color: #000;
-    margin-top: 2%;
+.diploma-card-title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    height: 43px;
+    max-height: 45px;
+    overflow: hidden;
+    margin: 0.375rem 0;
 }
 
-ion-content .diploma_details ion-card-content .diploma_price ion-text { font-size: 22px }
-
-ion-content .diploma_details ion-card-content .diploma_price ion-text span{
-    display: inline-block;
-    margin-left: -1%;
-    font-size: 18px
+.diploma-card-rating .fa-star, .diploma-card-rating .fa-star-half {
+    font-size: 12px;
+    color: rgb(224, 128, 2);
 }
-ion-content .diploma_details ion-card-content .diploma_adoption { overflow: hidden ; margin-top: 2%}
 
-ion-content .diploma_details ion-card-content .diploma_adoption .diploma_adoption_title ,
-ion-content .diploma_details ion-card-content .diploma_adoption .diploma_adoption_image { float : left }
+.diploma-rater-num {
+    font-size: 12px;
+    font-weight: 700;
+    color: #8a8a8e;
+}
 
-ion-content .diploma_details ion-card-content .diploma_adoption .diploma_adoption_title {width : 70% ; margin-top: 1%}
+.diploma-card-price {
+    margin: 0.325rem 0;
+    font-size: 20px;
+    font-weight: 700;
+}
 
-ion-content .diploma_details ion-card-content .diploma_adoption .diploma_adoption_title ion-text span { font-weight: bold ; color: #000 }
+.diploma-price-currency {
+    font-size: 20px;
+    font-weight: 700;
+}
 
-ion-content .diploma_details ion-card-content .diploma_adoption .diploma_adoption_image {width: 30% ; text-align: right}
+.special-diploma-container {
+    margin: 0.75rem 0;
+}
 
-ion-content .diploma_details ion-card-content .diploma_adoption .clearfix { clear: both }
+.special-diploma-note {
+    font-size: 12px;
+    font-weight: normal;
+    color: hsl(240, 2%, 77%);
+}
+
+.special-diploma-note .note-highlight {
+    color: black;
+    font-weight: 700;
+}
+
+.special-diploma-note img {
+    width: 50px;
+    height: 15px;
+}
+
+.section-options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-all-link {
+    padding: 0 0.375rem;
+    font-size: 14px;
+    color: #71a033;
+    text-decoration: none;
+}
