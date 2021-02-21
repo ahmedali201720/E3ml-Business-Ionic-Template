@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Filteration Diploma (V2) </title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/filteration_diploma_v2.css' />
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="stylesheet" href='../assets/icons/css/all.css'>
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <!-- Start Include Font Family Tajwaal Regular -->
+<!--    <link rel="preconnect" href="https://fonts.gstatic.com">-->
+<!--    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">-->
+    <!-- End Include Font Family Tajwaal Regular -->
+</head>
+
+<body>
+
+<ion-app>
+
+    <!-- Start Page Header -->
+    <ion-header class = "ion-no-border" >
+        <ion-grid>
+            <ion-row>
+                <ion-col size = "12" >
+                    <ion-toolbar>
+                        <ion-buttons slot = "start" >
+                            <ion-button>
+                                <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+                            </ion-button>
+                        </ion-buttons>
+                        <ion-title>
+                            <ion-text> Filter </ion-text>
+                        </ion-title>
+                        <ion-button class = "resetBtn" fill = "clear" slot = "end" >Reset</ion-button>
+                    </ion-toolbar>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-header>
+    <!-- End Page Header -->
+
+    <!-- Start Page Content -->
+
+    <ion-content>
+
+           <!-- Start Section Sorting By -->
+
+           <section id = "sortBy" >
+
+               <ion-grid>
+
+                   <ion-row>
+
+                       <ion-col size = "12" >
+
+                           <div class = "sortByDetails" >
+
+                               <h2>Sort by</h2>
+
+                               <div class = "sortByItems" >
+                                   <ul>
+                                       <li class = "sortByItem active" >
+                                           <ion-text>Highest rated</ion-text>
+                                       </li>
+                                       <li class = "sortByItem" >
+                                           <ion-text>New</ion-text>
+                                       </li>
+                                   </ul>
+
+                               </div>
+
+                           </div>
+
+                       </ion-col>
+
+                   </ion-row>
+
+               </ion-grid>
+
+           </section>
+
+           <!-- End Section Sorting By -->
+
+           <!-- Start Section Filtering By -->
+
+           <section id = "filterBy" >
+               <ion-grid>
+                   <ion-row>
+                       <ion-col size = "12" >
+
+                           <div class = "filterByDetails" >
+
+                               <h2>Filter by</h2>
+
+                               <p>Price</p>
+
+                               <div class = "filterByItems" >
+
+                                   <ul>
+                                       <li class = "filterByItem" >
+                                           <ion-text>
+                                               Free <br />
+                                               <span>547</span>
+                                           </ion-text>
+                                       </li>
+                                       <li class = "filterByItem" >
+                                           <ion-text>
+                                               320$ <br />
+                                               <span>574</span>
+                                           </ion-text>
+                                       </li>
+                                   </ul>
+
+                               </div>
+
+                               <p>Rate</p>
+
+                               <div class = "filterByItems" >
+
+                                   <ul>
+                                       <li class = "filterByItem" >
+                                           <ion-text>
+                                               Above 3 <br />
+                                               <span>574</span>
+                                           </ion-text>
+                                       </li>
+                                       <li class = "filterByItem" >
+                                           <ion-text>
+                                               Above 3.5 <br />
+                                               <span>574</span>
+                                           </ion-text>
+                                       </li>
+                                       <li class = "filterByItem" >
+                                           <ion-text>
+                                               Above 4 <br />
+                                               <span>574</span>
+                                           </ion-text>
+                                       </li>
+                                   </ul>
+
+                               </div>
+
+                               <p>No. of Courses</p>
+
+                               <div class = "filterByItems" >
+
+                                   <ul>
+                                       <li class = "filterByItem" >
+                                           <ion-text>
+                                               Above 3 <br />
+                                               <span>547</span>
+                                           </ion-text>
+                                       </li>
+                                       <li class = "filterByItem" >
+                                           <ion-text>
+                                               8 - 2 <br />
+                                               <span>547</span>
+                                           </ion-text>
+                                       </li>
+                                       <li class = "filterByItem" >
+                                           <ion-text>
+                                               4 - 2 <br />
+                                               <span>547</span>
+                                           </ion-text>
+                                       </li>
+                                   </ul>
+
+                               </div>
+
+                           </div>
+
+                       </ion-col>
+                   </ion-row>
+               </ion-grid>
+           </section>
+
+           <!-- End Section Filtering By -->
+
+           <!-- Start Section Show Results Action -->
+
+           <div id = "showResult" >
+
+               <ion-grid>
+
+                   <ion-row>
+
+                       <ion-col size = "12" >
+
+                           <div class = "showResultAction" >
+
+                               <ion-button expand = "block" >
+                                   Show results
+                               </ion-button>
+
+                           </div>
+
+                       </ion-col>
+
+                   </ion-row>
+
+               </ion-grid>
+
+           </div>
+
+           <!-- Start Section Show Results Action -->
+
+    </ion-content>
+
+    <!-- End Page Content -->
+
+</ion-app>
+
+<!--<script src="../assets/js/jquery/jquery-3.5.1.js"></script>-->
+<!-- <script src="../assets/js/home.js"></script> -->
+
+</body>
+
+</html>
