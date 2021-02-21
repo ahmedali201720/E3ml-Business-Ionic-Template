@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Search Diplomas</title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/select-certificate.css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="stylesheet" href="../assets/icons/css/all.css">
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+
+    <ion-app>
+
+        <ion-content>
+
+            <div class="filter-container">
+
+                <div class="header-container">
+                    <div class="header-wrapper">
+                        <ion-button class="header-close-button" fill="clear">
+                            <ion-icon name="close-outline"></ion-icon>
+                            Filter
+                        </ion-button>
+                    </div>
+                    <ion-button class="reset-button" fill="clear">Reset</ion-button>
+                </div>
+
+                <form action="GET" class="filter-form">
+
+                    <div class="sorting-container filter-form-container">
+                        <ion-label class="filter-section-label">Sort By</ion-label>
+                        <ion-item class="filter-form-item" lines="none">
+                            <ion-label>Heighest Rated</ion-label>
+                            <ion-checkbox name="high_rate" value="high_rate" mode="ios" checked></ion-checkbox>
+                        </ion-item>
+                        <ion-item class="filter-form-item" lines="none">
+                            <ion-label>New</ion-label>
+                            <ion-checkbox name="new" value="new" mode="ios" checked></ion-checkbox>
+                        </ion-item>
+                    </div>
+
+                    <div class="price-container filter-form-container">
+                        <ion-label class="filter-section-label">Price</ion-label>
+                        <ion-item class="filter-form-item" lines="none">
+                            <ion-label>Free</ion-label>
+                            <ion-checkbox name="free" value="free" mode="ios" checked></ion-checkbox>
+                        </ion-item>
+                        <ion-item class="filter-form-item" lines="none">
+                            <ion-label>320 <span>EGP</span></ion-label>
+                            <ion-checkbox name="320" value="320" mode="ios" checked></ion-checkbox>
+                        </ion-item>
+                    </div>
+
+                    <div class="rate-container filter-form-container">
+                        <ion-label class="filter-section-label">Rate</ion-label>
+                        <ion-item class="filter-form-item" lines="none">
+                            <ion-label>Above 3</ion-label>
+                            <ion-checkbox name="more_3" value="more_3" mode="ios" checked></ion-checkbox>
+                        </ion-item>
+                        <ion-item class="filter-form-item" lines="none">
+                            <ion-label>Above 3.5</ion-label>
+                            <ion-checkbox name="more_3.5" value="more_3.5" mode="ios" checked></ion-checkbox>
+                        </ion-item>
+                        <ion-item class="filter-form-item" lines="none">
+                            <ion-label>Above 4</ion-label>
+                            <ion-checkbox name="more_4" value="more_4" mode="ios" checked></ion-checkbox>
+                        </ion-item>
+                    </div>
+
+                    <div class="course-num-container filter-form-container">
+                        <ion-label class="filter-section-label">No. of courses</ion-label>
+                        <ion-item class="filter-form-item" lines="none">
+                            <ion-label>Above 3</ion-label>
+                            <ion-checkbox name="more_3" value="more_3" mode="ios" checked></ion-checkbox>
+                        </ion-item>
+                        <ion-item class="filter-form-item" lines="none">
+                            <ion-label>2 - 8</ion-label>
+                            <ion-checkbox name="2-8" value="2-8" mode="ios" checked></ion-checkbox>
+                        </ion-item>
+                        <ion-item class="filter-form-item" lines="none">
+                            <ion-label>2 - 4</ion-label>
+                            <ion-checkbox name="2-4" value="2-4" mode="ios" checked></ion-checkbox>
+                        </ion-item>
+                    </div>
+
+                    <div class="apply-filter-container">
+
+                        <ion-grid>
+
+                            <ion-row>
+                                <ion-col size-lg="8" size-xs="10" offset-lg="2" offset-xs="1">
+                                    <ion-button class="apply-filter-button">Show Result</ion-button>
+                                </ion-col>
+                            </ion-row>
+
+                        </ion-grid>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </ion-content>
+
+    </ion-app>
+
+    <script src="../assets/js/jquery/jquery-3.5.1.js"></script>
+    <script src="../assets/icons/js/font-kit.js"></script>
+    <script src="../assets/js/ui.js"></script>
+
+</body>
+
+</html>
