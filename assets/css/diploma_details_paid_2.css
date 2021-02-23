@@ -1,0 +1,156 @@
+* {
+    font-family: 'tajawal';
+}
+
+.header-button {
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+}
+
+.header-back-button {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    --padding-start: 0;
+    --padding-end: 0;
+}
+
+.header-grey-icon {
+    color: gray;
+    padding: 0 0.325rem;
+}
+
+/* **************************************************************************** */
+
+.diploma-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.325rem 1rem;
+}
+
+.diploma-video iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:576px) {
+    .diploma-video iframe {
+        height: 315px;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .diploma-video iframe {
+        height: 233px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .diploma-video iframe {
+        height: 211px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .diploma-video iframe {
+        height: 180px;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    .diploma-video iframe {
+        height: 315px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .diploma-video iframe {
+        height: 405px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .diploma-video iframe {
+        height: 558px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .diploma-video iframe {
+        height: 576px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .diploma-video iframe {
+        height: 576px;
+    }
+}
+
+/* **************************************************************************** */
+
+.center-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ***************************************************************************** */
+
+.diploma-header-text {
+    padding: 0.325rem 1rem;
+}
+
+.diploma-header-text .lecturer {
+    display: block;
+    font-size: 0.725rem;
+    color: #8a8a8e;
+}
+
+.diploma-header-text .title {
+    display: block;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.diploma-header-text .rating {
+    display: block;
+    font-size: 12px;
+    color: rgb(250, 132, 36);
+    font-weight: 700;
+    margin-top: 0.225rem;
+}
+
+.diploma-header-text .rating .rate-count {
+    color: #8a8a8e;
+}
+
+.diploma-gist-section {
+    text-align: center;
+    font-size: 14px;
+    color: #8a8a8e;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 1rem 0;
+}
+
+@media only screen and (max-width:280px) {
+    .diploma-gist-section {
+        display: block;
+    }
+    .diploma-gist-section .category, .diploma-gist-section .benefeciaries, .diploma-gist-section .date {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .diploma-gist-section {
+        display: flex;
+        justify-content: space-around;
+    }
+}
