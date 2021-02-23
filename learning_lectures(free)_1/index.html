@@ -7,6 +7,7 @@
     <title>E3ml Business | Learning Lectures (Free) - 1 </title>
     <link rel="stylesheet" href='../assets/css/common.css'>
     <link rel="stylesheet" href='../assets/css/learning_lectures(free)_1.css'>
+    <link rel="stylesheet" href='../assets/css/jQuery-plugin-progressbar.css'>
     <link rel="stylesheet" href='../assets/css/font.css'>
     <link rel="icon" href="../assets/img/logo.png">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
@@ -129,10 +130,23 @@
 
                                 <ion-label class = "ion-text-wrap" >
 
-                                    <h2>
-                                        <img src = "../assets/img/play_circle_outline.png" alt = "play_circle_outline" />
-                                        Definition of modern marketing
-                                    </h2>
+                                    <!-- Start Intro Item Header -->
+
+                                    <div class = "intro-item-header" >
+
+                                        <div class = "intro-item-icon" >
+                                            <img src = "../assets/img/play_circle_outline.png" alt = "play_circle_outline" />
+                                        </div>
+
+                                        <div class = "intro-item-text" >
+                                            <h2>Definition of modern marketing</h2>
+                                        </div>
+
+                                        <div class = "clearfix" ></div>
+
+                                    </div>
+
+                                    <!-- End Intro Item Header -->
 
                                     <p>Video <span></span> 20 M</p>
 
@@ -165,6 +179,12 @@
                                     <p>Video <span></span> 20 M</p>
 
                                 </ion-label>
+
+                                <!-- Start Circular Progress Bar -->
+
+                                <div class="progress-bar position"></div>
+
+                                <!-- End Circular Progress Bar -->
 
                             </ion-item>
 
@@ -228,6 +248,64 @@
 
                 <hr />
 
+                <!-- Start Section Second Part -->
+
+                <section id = "second_part" >
+
+                    <!-- Start Second Part Header -->
+
+                    <div class = "second-part-header" >
+
+                        <ion-item lines = "none" >
+
+                            <ion-label class = "ion-text-wrap" >
+
+                                <h2>Second Part</h2>
+
+                            </ion-label>
+
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+
+                        </ion-item>
+
+                    </div>
+
+                    <!-- End Second Part Header -->
+
+                </section>
+
+                <!-- End Section Second Part -->
+
+                <hr />
+
+                <!-- Start Section Third Part -->
+
+                <section id = "third_part" >
+
+                    <!-- Start Second Part Header -->
+
+                    <div class = "third-part-header" >
+
+                        <ion-item lines = "none" >
+
+                            <ion-label class = "ion-text-wrap" >
+
+                                <h2>Third Part</h2>
+
+                            </ion-label>
+
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+
+                        </ion-item>
+
+                    </div>
+
+                    <!-- End Third Part Header -->
+
+                </section>
+
+                <!-- End Section Third Part -->
+
             </section>
 
             <!-- End Lecture Items -->
@@ -242,9 +320,12 @@
 
 </ion-app>
 
-<!-- <script src="../assets/js/jquery/jquery-3.5.1.js"></script> -->
+ <script src="../assets/js/jquery/jquery-3.5.1.js"></script>
 <!-- <script src="../assets/js/home.js"></script> -->
-
+<script src="../assets/js/jQuery-plugin-progressbar.js"></script>
+<script>
+    $(".progress-bar").loading();
+</script>
 </body>
 
 </html>
