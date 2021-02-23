@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="64f9742b-9110-48ad-9912-c256f66f8388" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/Filtration-courses–v2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/Filtration-courses–v2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filteration_courses_v2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/filteration_courses_v2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../supportadmin" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -64,7 +66,8 @@
       <workItem from="1613395913616" duration="8488000" />
       <workItem from="1613470076386" duration="34608000" />
       <workItem from="1613641692858" duration="19000" />
-      <workItem from="1614004676516" duration="17452000" />
+      <workItem from="1614004676516" duration="18949000" />
+      <workItem from="1614091653738" duration="649000" />
     </task>
     <servers />
   </component>
@@ -72,10 +75,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1613638108234">
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1614085498673">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1613638108234" />
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1614085498673" />
     <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1613470076380">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
