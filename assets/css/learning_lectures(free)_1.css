@@ -1,0 +1,166 @@
+/* Start Style Page Content */
+
+/***
+ * Start Global
+ */
+
+ion-content hr {
+    border-top : 2px solid #f5f5f7 ;
+    margin-top : 0;
+    margin-bottom : 0
+}
+
+/***
+ * End Global
+ */
+
+/* Start Style lecture Video */
+
+ion-content #lecture_informations #lecture_video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+ion-content #lecture_informations #lecture_video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* End Style lecture Video */
+
+/* Start Style lecture Details */
+
+ion-content #lecture_informations #lecture_details h3 {
+    color : #8a8a8e
+}
+
+ion-content #lecture_informations #lecture_details p {
+    font-size : 17px;
+    color : #000;
+    font-weight: 900
+}
+
+/* End Style lecture Details */
+
+/* Start Style lecture Tabs */
+
+ion-content #lecture_informations #lecture_tabs { border-bottom : 2px solid #f5f5f7 }
+
+ion-content #lecture_informations #lecture_tabs ion-segment-button {
+    text-transform  : none;
+    font-weight     : bold;
+    --color-checked : #71a033
+}
+
+/* End Style lecture Tabs */
+
+/* Start Style lecture Items */
+
+ion-content #lecture_informations #lecture_items {
+    padding : 33px 0 80px 0
+}
+
+ion-content #lecture_informations #lecture_items #intro .intro-header ion-label {
+    margin-left: 1%;
+}
+
+ion-content #lecture_informations #lecture_items #intro .intro-header ion-label h2 {
+    color : #000;
+    font-size : 20px
+}
+
+ion-content #lecture_informations #lecture_items #intro .intro-items ion-label {
+    margin-left: 6%;
+}
+
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item .item-number { color : #3f4953 }
+
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:nth-child(1) .item-number,
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:nth-child(2) .item-number ,
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:nth-child(3) .item-number {
+    margin-top : -6%
+}
+
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:first-child ion-label h2 {
+    color : #000;
+    font-weight: bold
+}
+
+
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:first-child .intro-item-header { overflow: hidden }
+
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:first-child .intro-item-header .intro-item-icon ,
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:first-child .intro-item-header .intro-item-text { float : left }
+
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:first-child .intro-item-header .intro-item-text {
+    margin-left: 2%;
+    margin-top: -1.1%
+}
+
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:first-child .intro-item-header .clearfix { clear: both }
+
+ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item ion-label h2 {
+    color : #363636
+}
+
+ion-content #lecture_informations #lecture_items #intro .intro-items ion-label p { color : #c3c3c3 }
+
+ion-content #lecture_informations #lecture_items #intro .intro-items ion-label p span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #c3c3c3;
+    border-radius: 50%
+}
+
+ion-content #lecture_informations #lecture_items #second_part .second-part-header ion-label ,
+ion-content #lecture_informations #lecture_items #third_part .third-part-header ion-label {
+    margin-left: 1%;
+}
+
+ion-content #lecture_informations #lecture_items #second_part .second-part-header ion-label h2,
+ion-content #lecture_informations #lecture_items #third_part .third-part-header ion-label h2 {
+    color : #000;
+    font-size: 20px
+}
+
+ion-content #lecture_informations #lecture_items #second_part,
+ion-content #lecture_informations #lecture_items #third_part {
+    padding : 5px 0
+}
+/* End Style lecture Items */
+
+/* End Style Page Content */
+
+/* Start Responsive Of The Page */
+
+@media(min-width: 1024px) and (max-width: 1366px) {
+
+    ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:nth-child(1) .item-number,
+    ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:nth-child(2) .item-number ,
+    ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:nth-child(3) .item-number {
+        margin-top : -1%;
+    }
+
+    ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:first-child .intro-item-header .intro-item-text {
+        margin-top : -0.1%
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+
+    ion-content #lecture_informations #lecture_items #intro .intro-items .intro-item:first-child .intro-item-header .intro-item-text {
+        margin-top : -0.1%
+    }
+
+}
+
+/* End Responsive Of The Page */

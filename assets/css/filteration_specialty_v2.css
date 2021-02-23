@@ -1,0 +1,84 @@
+* {
+    font-family: 'tajawal';
+}
+
+ion-header {
+    padding: 0 0.375rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.825rem;
+}
+
+.header-close-button {
+    font-size: 0.925rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    --padding-start: 0;
+    --padding-end: 0.525rem;
+}
+
+.header-close-button ion-icon {
+    color: rgb(197, 193, 193);
+    padding: 0 0.325rem;
+}
+
+.reset-button {
+    --color: #73a033;
+}
+
+/* **************************************************************************** */
+
+.filter-container {
+    padding: 0.325rem 0.625rem;
+}
+
+.filter-form {
+    padding: 0.625rem;
+}
+
+.filter-form-container {
+    margin-top: 0.625rem;
+}
+
+.filter-section-label {
+    display: block;
+    margin-bottom: 0.625rem;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.filter-form-item {
+    display: inline-block;
+    --padding-start: 8px;
+    border: 1px solid #d3d3d6;
+    border-radius: 10px;
+}
+
+.filter-form-item ion-label {
+    font-size: 13px !important;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.filter-form-item ion-checkbox {
+    --border-color: gray;
+    --border-color-checked: #73a033;
+    --background-checked: #73a033;
+    margin: 0 0.225rem;
+    --size: 14px;
+}
+
+.apply-filter-container {
+    margin-top: 1rem;
+}
+
+.apply-filter-button {
+    width: 100%;
+    --background: #71a033;
+}
