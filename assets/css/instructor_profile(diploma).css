@@ -128,3 +128,19 @@ ion-content #trainer_information .course_details ion-item .course_more_details {
 /* End Style Course Details */
 
 /* End Style Page Content */
+
+/* Start Responsive Of The Page */
+
+@media(min-width: 280px) and (max-width: 653px) {
+
+    ion-content .instructor_students {
+        margin-left: 5%
+    }
+
+    ion-content .instructor_courses {
+        border-right: none
+    }
+
+}
+
+/* End Responsive Of The Page */
