@@ -137,20 +137,25 @@
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
     margin: 1rem 0;
+    padding: 0 0.325rem;
 }
 
-@media only screen and (max-width:400px) {
-    .diploma-gist-section {
-        display: flex;
-        justify-content: space-around;
-    }
-}
-
-@media only screen and (max-width:280px) {
+@media only screen and (max-width:414px) {
     .diploma-gist-section {
         display: block;
     }
     .diploma-gist-section .category, .diploma-gist-section .benefeciaries, .diploma-gist-section .date {
         display: block;
     }
+}
+
+@media only screen and (min-width:414px) {
+    .diploma-gist-section {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.diploma-details-course-info {
+    padding: 0.325rem 1rem;
 }
