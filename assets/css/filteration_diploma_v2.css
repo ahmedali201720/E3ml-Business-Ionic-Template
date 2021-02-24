@@ -1,142 +1,84 @@
-/* Start Global */
-
-ul {
-    list-style-type: none;
-    padding : 0;
-    margin : 0
+* {
+    font-family: 'tajawal';
 }
-
-/* End Global */
-
-/* Start Style Page Header */
 
 ion-header {
-    padding-top: 2.5rem !important
+    padding: 0 0.375rem;
 }
 
-ion-header ion-buttons ion-button i {
-    color : #dcdcdd;
-    font-weight: normal !important
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.825rem;
 }
 
-ion-header ion-title {
-    padding-left: 0 !important;
-    margin-left : 2%
+.header-close-button {
+    font-size: 0.925rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    --padding-start: 0;
+    --padding-end: 0.525rem;
 }
 
-ion-header ion-text {
-    font-weight: bold !important;
-    color : #333 !important;
-    font-size: 22px
+.header-close-button ion-icon {
+    color: rgb(197, 193, 193);
+    padding: 0 0.325rem;
 }
 
-ion-header ion-toolbar .resetBtn {
-    --color : #71a033;
-    text-transform: none;
-    font-size: 16px;
+.reset-button {
+    --color: #73a033;
 }
 
-/* End Style Page Header */
+/* **************************************************************************** */
 
-/* Start Style Page Content */
-
-
-/* Start Style Sort By Section */
-
-ion-content #sortBy .sortByDetails h2 {
-    margin-left: 4%;
-    font-weight: bold
+.filter-container {
+    padding: 0.325rem 0.625rem;
 }
 
-ion-content #sortBy .sortByDetails .sortByItems {
-    margin-left: 4%;
-    margin-top: 5%;
+.filter-form {
+    padding: 0.625rem;
 }
 
-ion-content #sortBy .sortByDetails .sortByItem {
+.filter-form-container {
+    margin-top: 0.625rem;
+}
+
+.filter-section-label {
+    display: block;
+    margin-bottom: 0.625rem;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.filter-form-item {
     display: inline-block;
-    border : 1px solid #8a8a8e;
-    color : #000;
-    padding: 5% 12%;
-    margin-right: 2%;
-    border-radius: 8px;
-    font-weight : bold;
+    --padding-start: 8px;
+    border: 1px solid #d3d3d6;
+    border-radius: 10px;
 }
 
-/* End Style Sort By Section */
-
-
-/* Start Style Filter By Section */
-
-ion-content #filterBy .filterByDetails h2 {
-    margin-left: 4%;
-    font-weight: bold
+.filter-form-item ion-label {
+    font-size: 13px !important;
+    font-weight: 500;
+    width: fit-content;
 }
 
-ion-content #filterBy .filterByDetails .filterByItems {
-    margin-left: 4%;
-    margin-top: 5%;
+.filter-form-item ion-checkbox {
+    --border-color: gray;
+    --border-color-checked: #73a033;
+    --background-checked: #73a033;
+    margin: 0 0.225rem;
+    --size: 14px;
 }
 
-ion-content #filterBy .filterByDetails .filterByItem {
-    display: inline-block;
-    border : 1px solid #8a8a8e;
-    color : #000;
-    padding: 5% 10%;
-    margin-right: 2%;
-    border-radius: 8px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 2%;
+.apply-filter-container {
+    margin-top: 1rem;
 }
 
-ion-content #filterBy .filterByDetails p {
-    color: #8a8a8e;
-    font-weight: bold;
-    margin-left: 4%;
+.apply-filter-button {
+    width: 100%;
+    --background: #71a033;
 }
-
-ion-content #filterBy .filterByDetails .filterByItem span { font-weight: normal }
-
-/* End Style Filter By Section */
-
-/* Start Style Show Results Action */
-
-ion-content #showResult .showResultAction {
-    padding    : 0 3% 0 3%;
-    margin-top : 20%
-}
-
-ion-content #showResult .showResultAction ion-button {
-    --border         : 1px solid #71a033;
-    --background     : #71a033;
-    --border-radius  : 10px;
-    --padding-top    : 25px;
-    --padding-bottom : 25px;
-    text-transform   : none;
-    font-weight      : bold
-}
-
-/* End Style Show Results Action */
-
-/* End Style Page Content */
-
-/* Start Responsive Of Page */
-
-@media (min-width: 280px) and (max-width: 653px) {
-
-    ion-content #sortBy .sortByDetails .sortByItem {
-
-        margin-bottom: 2%
-
-    }
-
-    ion-content #showResult .showResultAction {
-
-        margin-bottom: 20%
-
-    }
-
-}
-
-/* End Responsive Of Page */
