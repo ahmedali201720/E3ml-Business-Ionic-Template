@@ -53,6 +53,21 @@ ion-content ion-item ion-input {
 
 ion-content ion-item:nth-child(3) ion-input { font-weight: normal !important }
 
+
+ion-content .form-item.mobile-item .country_flag {
+    margin-top: 11% !important;
+}
+
+ion-content .form-item.mobile-item .country_flag img {
+    width : 20px;
+    height: auto;
+    margin : 0 2px
+}
+
+ion-content .form-item.mobile-item .country_flag input {
+   width: 40%;
+}
+
 ion-content #registerationInfos #registerationAction {
     padding    : 0 3% 0 3% !important;
     margin-top : 6%!important
@@ -113,6 +128,19 @@ ion-content #social-registeration #separator {
      text-decoration: none !important;
      color : #71a033 !important;
  }
+
+
+ /* Start Responsive Of The Page  */
+
+ @media(min-width: 280px) and (max-width: 653px) {
+
+     ion-content #social-registeration #login_with_google {
+         margin-top : 8%
+     }
+
+ }
+
+ /* End Responsive Of The Page */
  
 
 
