@@ -30,12 +30,12 @@ ion-content #checkEmailCodeVerfication p a {
 } 
 
 ion-content .write_code {
-    color : #8a8a8e !important;
+    color : #8a8a8e;
     margin-bottom: 0 !important;
 }
 
 ion-content .custom-input {
-    border : 1px solid #8a8a8e !important;
+    border : 1px solid #8a8a8e;
     border-radius : 5px !important;
     text-align : center !important;
     font-size: 20px !important;
@@ -43,7 +43,7 @@ ion-content .custom-input {
 }
 
 ion-content .custom-input.active {
-    border : 1px solid #71a033 !important
+    border : 1px solid #71a033
 }
 
 ion-content #timer {
@@ -59,3 +59,13 @@ ion-content #resend_code a {
     text-decoration: none !important;
     color : #8a8a8e !important
 }
+
+/* Start Expired Code Scenario */
+
+ ion-content .write_code.expiredCode { color : #ff3b32  }
+
+ ion-content .custom-input.expiredCodeItem { border : 1px solid #ff3b32  }
+
+ ion-content .activationCodeErrorMsg { color : #ff3b32 ; margin-top : 0 }
+
+/* End Expired Code Scenario */
