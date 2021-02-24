@@ -4,7 +4,8 @@
     <list default="true" id="64f9742b-9110-48ad-9912-c256f66f8388" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/activation-code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/activation-code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/activation-code.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/activation-code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/filteration_diploma_v2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/filteration_diploma_v2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filteration_diploma_v2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/filteration_diploma_v2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <workItem from="1613641692858" duration="19000" />
       <workItem from="1614004676516" duration="18949000" />
       <workItem from="1614091653738" duration="7797000" />
-      <workItem from="1614161379374" duration="1671000" />
+      <workItem from="1614161379374" duration="4062000" />
     </task>
     <servers />
   </component>
@@ -88,9 +89,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1613560085956" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1614161440945">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1614166301052">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1614161440945" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1614166301052" />
   </component>
 </project>
