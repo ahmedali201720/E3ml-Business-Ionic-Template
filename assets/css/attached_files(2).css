@@ -1,0 +1,67 @@
+/* Start Style Page Header */
+
+ion-header {
+    padding-top: 2.5rem
+}
+
+ion-header ion-buttons ion-button i {
+    color : #dcdcdd;
+    font-weight: normal
+}
+
+ion-header ion-title {
+    padding-left: 0;
+    margin-left : 2%
+}
+
+ion-header ion-text {
+    font-weight: bold;
+    color : #333;
+    font-size: 22px
+}
+
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+ion-content #intro .intro-section-header h4 ,
+ion-content #second-part .second-part-header h4 {
+    margin-left: 7%;
+    font-size: 16px;
+    color : #8a8a8e;
+    font-weight: bold
+}
+
+ion-content #intro div.number ,
+ion-content #second-part div.number {
+    color : #3f4953
+}
+
+ion-content #intro ion-label ,
+ion-content #second-part ion-label {
+    margin-left: 7.5%;
+    margin-top: 13%
+}
+
+ion-content #intro ion-label h2 ,
+ion-content #second-part ion-label h2{
+    font-size : 16px;
+    color : #000;
+    font-weight: bold
+}
+
+ion-content #intro ion-label p ,
+ion-content #second-part ion-label p {
+    color : #8a8a8e
+}
+
+ion-content #intro ion-label p span,
+ion-content #second-part ion-label p span {
+    display: inline-block;
+    padding: 2.5px;
+    background-color: #c3c3c3;
+    border-radius: 50%;
+    margin: 1.5% 0.5% 0 0.7%;
+}
+
+/* End Style Page Content */
