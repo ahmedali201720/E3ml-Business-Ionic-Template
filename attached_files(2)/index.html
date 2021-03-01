@@ -7,6 +7,7 @@
     <title>E3ml Business | Attached Files - 2 </title>
     <link rel="stylesheet" href='../assets/css/common.css'>
     <link rel="stylesheet" href='../assets/css/attached_files(2).css' />
+    <link rel="stylesheet" href='../assets/css/jQuery-plugin-progressbar.css'>
     <link rel="stylesheet" href='../assets/css/font.css'>
     <link rel="stylesheet" href='../assets/icons/css/all.css'>
     <link rel="icon" href="../assets/img/logo.png">
@@ -83,6 +84,12 @@
                                         <p> 100 KB <span></span> PDF File </p>
 
                                     </ion-label>
+
+                                    <!-- Start Circular Progress Bar -->
+
+                                    <div class="progress-bar position"></div>
+
+                                    <!-- End Circular Progress Bar -->
 
                                 </ion-item>
 
@@ -215,9 +222,12 @@
 
 </ion-app>
 
-<!--<script src="../assets/js/jquery/jquery-3.5.1.js"></script>-->
+<script src="../assets/js/jquery/jquery-3.5.1.js"></script>
+<script src="../assets/js/jQuery-plugin-progressbar.js"></script>
 <!-- <script src="../assets/js/home.js"></script> -->
-
+<script>
+    $(".progress-bar").loading();
+</script>
 </body>
 
 </html>

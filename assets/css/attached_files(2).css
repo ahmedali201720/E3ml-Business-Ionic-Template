@@ -44,7 +44,7 @@ ion-content #second-part ion-label {
 }
 
 ion-content #intro ion-label h2 ,
-ion-content #second-part ion-label h2{
+ion-content #second-part ion-label h2 {
     font-size : 16px;
     color : #000;
     font-weight: bold
@@ -64,4 +64,90 @@ ion-content #second-part ion-label p span {
     margin: 1.5% 0.5% 0 0.7%;
 }
 
+ion-content #intro .intro-section-items .intro-section-item:nth-child(1) .progress-bar { margin-top: 10% }
+
 /* End Style Page Content */
+
+/* Start Responsive Of The Page */
+
+@media(min-width: 540px) and (max-width:720px) {
+
+    ion-content #intro ion-label, ion-content #second-part ion-label {
+
+        margin-top : 6%
+
+    }
+
+    ion-content #intro .intro-section-items .intro-section-item:nth-child(1) .progress-bar {
+
+        margin-top : 5%
+
+    }
+
+}
+
+@media(min-width: 1024px) and (max-width:1366px) {
+
+    ion-content #intro ion-label, ion-content #second-part ion-label {
+
+        margin-top : 3%
+
+    }
+
+    ion-content #intro .intro-section-items .intro-section-item:nth-child(1) .progress-bar {
+
+        margin-top : 4%
+
+    }
+
+}
+
+@media(min-width: 768px) and (max-width:1024px) {
+
+    ion-content #intro ion-label, ion-content #second-part ion-label {
+
+        margin-top : 3%
+
+    }
+
+    ion-content #intro .intro-section-items .intro-section-item:nth-child(1) .progress-bar {
+
+        margin-top : 4%
+
+    }
+
+}
+
+@media(min-width: 375px) and (max-width:812px) {
+
+    ion-content #intro ion-label, ion-content #second-part ion-label {
+
+        margin-top : 8%
+
+    }
+
+    ion-content #intro .intro-section-items .intro-section-item:nth-child(1) .progress-bar {
+
+        margin-top : 6%
+
+    }
+
+}
+
+@media(min-width: 320px) and (max-width:568px) {
+
+    ion-content #intro ion-label, ion-content #second-part ion-label {
+
+        margin-top : 8%
+
+    }
+
+    ion-content #intro .intro-section-items .intro-section-item:nth-child(1) .progress-bar {
+
+        margin-top : 6%
+
+    }
+
+}
+
+/* End Responsive Of The Page */
