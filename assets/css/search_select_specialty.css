@@ -1,0 +1,194 @@
+/* Start Style Page Header */
+
+ion-header {
+    padding-top: 2.5rem;
+}
+
+ion-header ion-back-button {
+    display: block;
+    color : #71a033
+}
+
+ion-header ion-title {
+    padding-left: 0
+}
+
+ion-header ion-text {
+    font-weight: bold;
+    color : #333
+}
+
+ion-header .header-details  { overflow: hidden ; margin-top : 4% }
+
+ion-header .header-details  .title ,
+ion-header .header-details  .icon { float : left }
+
+ion-header .header-details  .icon  {
+    margin-top: -1.6%;
+    margin-left: -5%
+}
+
+ion-header .header-details  .clearfix { clear: both }
+
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+ion-content #search_select_specialty #courses_for_beginners h4 ,
+ion-content #search_select_specialty #all_courses h4
+{
+    color : #000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-bottom: 5%
+}
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card { margin-bottom: 5%; }
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card .course_image {
+    position: relative
+}
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card .course_image .course_hours {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #363636;
+    color: #FFF;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card .course_image .course_hours ion-icon {
+    display: inline-block;
+    margin-bottom: -8%;
+}
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card-content h5 ,
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card-content p:nth-child(4)  {
+    color : #8a8a8e;
+    font-size: 12px;
+}
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card-content p:nth-child(2) {
+    color : #000;
+    font-size: 16px;
+    font-weight: bold
+}
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card-content .course_rate { overflow: hidden }
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card-content .course_rate .icons_rate ,
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card-content .course_rate .total_rate_count { float : left }
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card-content .course_rate .total_rate_count { margin-left: 2% }
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card-content .course_rate .clearfix { clear: both }
+
+ion-content #search_select_specialty #courses_for_beginners .courses_details .course_details ion-card-content .course_rate ion-icon { color : #ffaa00 }
+
+/* Start Style Course Details */
+
+ion-content #search_select_specialty #all_courses { margin-top: 10% }
+
+ion-content #all_courses .course_details { margin-top: 2% }
+
+ion-content #all_courses .course_details .course_image {
+    position: relative;
+}
+
+ion-content #all_courses .course_details .course_image .course_hours {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #777;
+    color: #FFF;
+    padding: 6px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity : 0.8;
+}
+
+ion-content #all_courses .course_details ion-label {
+    margin-left: 5%;
+    margin-top: 3%
+}
+
+ion-content #all_courses .course_details ion-label h3 {
+    color : #8a8a8e
+}
+
+ion-content #all_courses .course_details ion-label p {
+    color : #000;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+ion-content #all_courses .course_details .course_rate { overflow: hidden ; margin-top: 5%}
+
+ion-content #all_courses .course_details .course_rate .icons_rate ,
+ion-content #all_courses .course_details .course_rate .total_rate_count { float : left }
+
+ion-content #all_courses .course_details .course_rate .total_rate_count { margin-left: 2% ; color : #8a8a8e ; margin-top : -1%}
+
+ion-content #all_courses .course_details .course_rate .clearfix { clear: both }
+
+ion-content #all_courses .course_details .course_rate ion-icon { color : #ffaa00 }
+
+ion-content #all_courses .course_details ion-item { position: relative }
+
+ion-content #all_courses .course_details ion-item .course_more_details {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* End Style Course Details */
+
+/* End Style Page Content */
+
+/* Start Responsive Of The Page */
+
+@media(min-width: 540px) and (max-width: 720px) {
+
+    ion-header .header-details {
+        margin-top : 1.7%
+    }
+
+    ion-header .header-details .icon {
+        margin-top: -1.2%;
+        margin-left: -3%;
+    }
+
+}
+
+@media(min-width: 1024px) and (max-width: 1366px) {
+
+    ion-header .header-details {
+        margin-top: 0.7%
+    }
+
+    ion-header .header-details .icon {
+        margin-top: -0.3%;
+        margin-left: -2%;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+
+    ion-header .header-details {
+        margin-top: 1%
+    }
+
+    ion-header .header-details .icon {
+        margin-top: -0.6%;
+        margin-left: -2%;
+    }
+
+}
+
+/* End Responsive Of The Page */
