@@ -131,16 +131,24 @@
 }
 
 .diploma-gist-section {
+    display: flex;
+    justify-content: space-around;
     text-align: center;
     font-size: 14px;
     color: #8a8a8e;
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
     margin: 1rem 0;
-    padding: 0 0.325rem;
 }
 
-@media only screen and (max-width:414px) {
+@media only screen and (max-width:576px) {
+    .diploma-gist-section {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width:320px) {
     .diploma-gist-section {
         display: block;
     }
@@ -149,13 +157,254 @@
     }
 }
 
-@media only screen and (min-width:414px) {
-    .diploma-gist-section {
-        display: flex;
-        justify-content: space-around;
+.diploma-courses-details {
+    padding: 0.625rem 1rem;
+}
+
+.diploma-courses-details .section-header {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.425rem;
+}
+
+.diploma-courses-details .details-items {
+    font-size: 0.625rem;
+}
+
+.diploma-courses-details .details-items .item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 0.625rem;
+    margin: 0.2rem 0;
+}
+
+.diploma-courses-details .details-items .item .value {
+    margin: 0 0.325rem;
+    font-weight: 600;
+}
+
+.diploma-courses-details .details-items .item .icon {
+    color: #71a033;
+}
+
+.diploma-courses-details .quote {
+    display: block;
+    font-size: 0.725rem;
+    font-weight: 500;
+}
+
+.diploma-courses-details .quote p {
+    margin: 1.2rem 0;
+    margin-bottom: 0;
+}
+
+.diploma-courses-details .quote .more-button {
+    text-decoration: none;
+    color: #71a033;
+}
+
+.buy-diploma-btn {
+    --background: #71a033;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.buy-diploma-btn .btn-price {
+    margin: 0 5px;
+}
+
+/* ***************************************************************************************************** */
+
+.fav-item {
+    border-radius: 7px;
+    padding: 0.325rem;
+}
+
+.favourites-container {
+    padding: 0.925rem 0.625rem;
+}
+
+.fav-item-img {
+    position: relative;
+}
+
+.fav-item-img img {
+    display: block;
+    width: 100%;
+    min-height: 72px;
+    height: auto;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+.course-duration {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.15rem 0.425rem;
+    background-color: #363636a9;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 12px;
+}
+
+.fav-item-text .lecturer {
+    display: block;
+    font-size: 12px;
+    color: #8a8a8e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fav-item-text .title p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    max-height: 30px;
+    overflow: hidden;
+    color: #000000;
+    margin: 1px 0;
+}
+
+.fav-item-text .rating {
+    font-size: 11px;
+}
+
+.fav-item-text .rating .star-icon {
+    font-size: 11px;
+}
+
+.fav-item-text .rating .filled {
+    color: rgb(255, 153, 0);
+}
+
+.fav-item-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.fav-item .more-link {
+    color: #000000;
+}
+
+@media only screen and (max-width:320px) {
+    .fav-item-text .rating .rate-number {
+        display: none;
     }
 }
 
-.diploma-details-course-info {
-    padding: 0.325rem 1rem;
+/* *********************************************************************************************************************** */
+
+.diploma-additional-details .all-button {
+    --color: #71a033;
+}
+
+.diploma-additional-details .courses-container {
+    border-bottom: 1px solid #e3e3e4;
+}
+
+/* ********************************************************************************************************************** */
+
+.coach-item {
+    --padding-start: 0;
+}
+
+.coach-item .name, .coach-item .title {
+    display: block;
+}
+
+.coach-item .name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.coach-item .title {
+    font-size: 13px;
+    color: #8a8a8e;
+    font-weight: 500;
+    margin-top: 0.2rem;
+}
+
+.coaches-container {
+    padding: 1.2rem 0;
+}
+
+/* *************************************************************************************************************** */
+
+.reviews-container {
+    border: 1px solid #bababd;
+    border-radius: 7px;
+    padding: 0.625rem 0.525rem;
+}
+
+.reviews-container .header {
+    border-bottom: 1px solid #e3e3e4;
+}
+
+.overlapping-avatars {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlapping-avatars .item {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #3a3a3a;
+    margin: 0 0.15rem;
+}
+
+.overlapping-avatars .absolute-item {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #3a3a3a;
+}
+
+.reviews-container .header .students {
+    font-size: 14px;
+    color: #8a8a8e;
+}
+
+.reviews-container .header .students .number {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.reviews-container .header .students .name, .reviews-container .header .students .number {
+    display: block;
+    text-align: center;
+}
+
+.reviews-container .header .rate-info {
+    text-align: center;
+    font-size: 14px;
+    color: #8a8a8e;
+}
+
+.reviews-container .header .rate-info i {
+    color: #f06b1e;
+}
+
+.reviews-container .header .rate-value {
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
