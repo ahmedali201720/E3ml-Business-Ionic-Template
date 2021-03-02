@@ -1,0 +1,88 @@
+/* Start Style Page Header */
+ion-header {
+    padding-top: 2.5rem !important
+}
+
+ion-header ion-buttons ion-button i {
+    color : #dcdcdd;
+    font-weight: normal !important
+}
+
+ion-header ion-title {
+    padding-left: 0 !important;
+    margin-left : 2%
+}
+
+ion-header ion-text {
+    font-weight: bold !important;
+    color : #333 !important;
+    font-size: 22px
+}
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+ion-content #download_settings .video_quality h5 {
+    font-weight: bold;
+    color: #c4c4c6;
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+
+ion-content #download_settings .video_quality ion-item { margin-bottom: 1% }
+
+ion-content #download_settings .video_quality ion-item ion-label {
+    font-weight: bold;
+}
+
+ion-content #download_settings .video_quality ion-item div ion-text {
+    color : #c4c4c6
+}
+
+ion-content #download_settings .video_quality ion-item ion-radio {
+    --color-checked: #71a033;
+}
+
+ion-content #download_settings hr {
+    border-top : 1px solid #c4c4c6;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+ion-content #download_settings .save_settings ion-list ion-item ion-label {
+    color : #444;
+    font-weight: bold
+}
+
+ion-content #download_settings .save_settings ion-list ion-item ion-toggle {
+    --background-checked : #71a033 ;
+}
+
+ion-content #downloadSettingsAction {
+    padding    : 0 3% 0 3% !important;
+    margin-top : 4% !important
+}
+
+ion-content #downloadSettingsAction ion-button {
+    --border         : 1px solid #71a033 !important;
+    --background     : #71a033 !important;
+    --border-radius  : 10px !important;
+    --padding-top    : 25px !important;
+    --padding-bottom : 25px !important;
+    text-transform   : none !important;
+    font-weight      : bold !important
+}
+
+/* End Style Page Content */
+
+/* Start Page Responsive */
+
+@media (min-width: 280px) and (max-width: 653px) {
+
+    ion-header ion-title ion-text {
+        font-size: 17px
+    }
+
+}
+
+/* End Page Responsive */
