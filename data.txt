@@ -29,3 +29,11 @@ e3ml business : 29.97247926758167, 31.28878513680661
 19 - Course Details ( paid)
 20 - Exam – 2
 21-  MBA Details ( paid) – 3
+22 - Diploma-details-paid-2
+23 - Tutorial -3
+24 - Exam – Qualification for international certificates
+25 - Exam – Qualification for international certificates
+26 - Add Comment – Qualification for international certificates
+27 - Learning_lectures (free) – 9
+28 - Payment – MBA
+29 - Qualification for international certificates Details ( paid) – 3
