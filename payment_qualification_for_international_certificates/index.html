@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3ml Business | Payment - Qualification For International Certificates </title>
+    <link rel="stylesheet" href='../assets/css/common.css'>
+    <link rel="stylesheet" href='../assets/css/payment_qualification_for_international_certificates.css'>
+    <link rel="stylesheet" href='../assets/css/font.css'>
+    <link rel="icon" href="../assets/img/logo.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+
+<ion-app>
+
+    <ion-header>
+        <ion-toolbar>
+            <a href="#" class="header-back-button">
+                <ion-icon slot="start" name="chevron-back-outline" class="header-icon"></ion-icon>
+                Payment
+            </a>
+        </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+
+        <div class="payment-form-container">
+
+            <div class="payment-form-header">
+                <img src="../assets/img/visa-mobile.png">
+                <img src="../assets/img/master-card-mobile.png" style="margin: 0rem 0.375rem;">
+                <ion-label class="payment-form-header-label">
+                    Credit and debit cards
+                </ion-label>
+            </div>
+
+            <div class="payment-form-body">
+
+                <form action="">
+
+                    <ion-grid>
+
+                        <ion-row>
+                            <!-- Card Number -->
+                            <ion-col size="12">
+                                <ion-item class="form-item">
+                                    <ion-label class="form-body-label" position="stacked">Card Number</ion-label>
+                                    <ion-input name="cardNumber" placeholder="Enter Card Number (16 digits)"
+                                               autofocus clear-input="true" type="number" minlength="16" maxlength="16"
+                                               required="true">
+                                    </ion-input>
+                                </ion-item>
+                            </ion-col>
+                            <!-- Card Expiration -->
+                            <ion-col size="6">
+                                <ion-item class="form-item">
+                                    <ion-label class="form-body-label" position="stacked">Expiry Date</ion-label>
+                                    <ion-input name="expiryDate" placeholder="MM / YY" required="true">
+                                    </ion-input>
+                                </ion-item>
+                            </ion-col>
+                            <!-- Card CVV -->
+                            <ion-col size="6">
+                                <ion-item class="form-item">
+                                    <ion-label class="form-body-label" position="stacked">Security Number
+                                    </ion-label>
+                                    <ion-input name="cvv" placeholder="CVV" type="number" minlength="3"
+                                               maxlength="3" required="true">
+                                    </ion-input>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+
+                    </ion-grid>
+
+                </form>
+
+                <div class="form-container">
+
+                    <ion-grid>
+
+                        <ion-row>
+                            <!-- Save Card Data -->
+                            <ion-col size="10">
+                                <ion-label class="payment-form-text">Keeping card data for use again</ion-label>
+                            </ion-col>
+                            <ion-col size="2">
+                                <ion-toggle class="form-toggle"></ion-toggle>
+                            </ion-col>
+                        </ion-row>
+
+                    </ion-grid>
+
+                </div>
+
+                <form action="">
+
+                    <ion-grid>
+
+                        <ion-row>
+                            <!-- Promo Code -->
+                            <ion-col size="8">
+                                <ion-item class="form-item">
+                                    <ion-label class="form-body-label" position="stacked">Discount code</ion-label>
+                                    <ion-input name="PromoCode" placeholder="Type discount code"
+                                               clear-input="true">
+                                    </ion-input>
+                                </ion-item>
+                            </ion-col>
+                            <ion-col size="4" class="apply-promocode-container">
+                                <ion-button class="apply-promocode" type="submit">Activation</ion-button>
+                            </ion-col>
+                            <ion-col size="12" class="amount-to-pay">
+                                <ion-label class="total-amount-label">Total Amount</ion-label>
+                                <ion-label class="paid-amount">420 <span>$</span></ion-label>
+                            </ion-col>
+                        </ion-row>
+
+                    </ion-grid>
+
+                </form>
+
+            </div>
+
+            <div class="payment-footer">
+
+                <ion-grid>
+
+                    <ion-row>
+                        <ion-col size-lg="8" size-xs="10" offset-lg="2" offset-xs="1">
+                            <ion-button class="confirm-payment-button">Confirm Payment</ion-button>
+                        </ion-col>
+                    </ion-row>
+
+                </ion-grid>
+
+            </div>
+
+        </div>
+
+    </ion-content>
+
+</ion-app>
+
+<script src="../assets/js/jquery/jquery-3.5.1.js"></script>
+<script src="../assets/js/home.js"></script>
+
+</body>
+
+</html>
