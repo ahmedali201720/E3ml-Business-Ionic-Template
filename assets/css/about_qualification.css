@@ -38,9 +38,9 @@ ion-content #about_qualification #course_description p {
 
 ion-content #about_qualification #course_trainer { margin-top : 2rem }
 
-ion-content #about_qualification #course_trainer ion-label h2 { font-weight: bold }
+ion-content #about_qualification #course_trainer ion-label h2 { font-weight: bold ; font-family : 'Tajawal', sans-serif }
 
-ion-content #about_qualification #course_trainer ion-label p { color : #8a8a8e }
+ion-content #about_qualification #course_trainer ion-label p { color : #8a8a8e ; font-family : 'Tajawal', sans-serif }
 
 /* End Style Course Trainer */
 
