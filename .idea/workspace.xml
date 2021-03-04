@@ -27,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../e3melbusinessv5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -69,7 +69,8 @@
       <workItem from="1614161379374" duration="17133000" />
       <workItem from="1614263858306" duration="6942000" />
       <workItem from="1614502810708" duration="28062000" />
-      <workItem from="1614682294219" duration="5828000" />
+      <workItem from="1614682294219" duration="7336000" />
+      <workItem from="1614786252378" duration="5033000" />
     </task>
     <servers />
   </component>
@@ -77,21 +78,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1614591724024">
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1614762917935">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1614591724024" />
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1614762917935" />
     <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1614682299502">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1614682299502" />
-    <state x="456" y="195" key="run.anything.popup" timestamp="1614169653187">
+    <state x="456" y="195" key="run.anything.popup" timestamp="1614787667378">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1614169653187" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1614696825003">
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1614787667378" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1614851728171">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1614696825003" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1614851728171" />
   </component>
 </project>

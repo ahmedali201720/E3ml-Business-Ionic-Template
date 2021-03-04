@@ -1,0 +1,47 @@
+/* Start Style Page Header */
+ion-header {
+    padding-top: 2.5rem
+}
+
+ion-header ion-buttons ion-button i {
+    color : #dcdcdd;
+    font-weight: normal
+}
+
+ion-header ion-title {
+    padding-left: 0;
+    margin-left : 2%
+}
+
+ion-header ion-text {
+    font-weight: bold;
+    color : #333;
+    font-size: 22px;
+    font-family : 'Tajawal', sans-serif;
+}
+/* End Style Page Header */
+
+/* Start Style Page Content */
+
+/* Start Style Course Description */
+
+ion-content #about_qualification #course_description p {
+    margin-left: 1.5%;
+    color : #000;
+    line-height: 21px;
+    font-family : 'Tajawal', sans-serif
+}
+
+/* End Style Course Description */
+
+/* Start Style Course Trainer */
+
+ion-content #about_qualification #course_trainer { margin-top : 2rem }
+
+ion-content #about_qualification #course_trainer ion-label h2 { font-weight: bold }
+
+ion-content #about_qualification #course_trainer ion-label p { color : #8a8a8e }
+
+/* End Style Course Trainer */
+
+/* End Style Page Content */
