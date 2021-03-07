@@ -126,6 +126,18 @@
     align-items: center;
 }
 
+.ask-button {
+    position: fixed;
+    right: 8%;
+    bottom: 5%;
+    --background: #71a033;
+    --color: #fff;
+}
+
+.ask-button i {
+    margin: 0 0.225rem;
+}
+
 @media only screen and (max-width: 576px) {}
 
 @media only screen and (max-width:414px) {}
