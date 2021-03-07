@@ -29,4 +29,3 @@ e3ml business : 29.97247926758167, 31.28878513680661
 23 - Tutorial -3
 24 - Exam – Qualification for international certificates
 25 - Exam – Qualification for international certificates
-26 - Add Comment – Qualification for international certificates
