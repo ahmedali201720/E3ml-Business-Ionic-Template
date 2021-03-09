@@ -72,7 +72,7 @@ ion-title .header-title {
     height: 20px;
     min-height: 20px;
     margin: 0;
-    --color-checked: #000;
+    --color-checked: #71a033;
 }
 
 .question-sections-footer {
@@ -96,6 +96,52 @@ ion-title .header-title {
     margin-bottom: 0;
     font-size: 14px;
     color: #57575e;
+}
+
+.answer-correct {
+    border-color: #71a033;
+}
+
+.answer-correct .radio {
+    --color: transparent !important;
+    --color-checked: transparent !important;
+    border: 2px solid #71a033;
+    border-radius: 50%;
+}
+
+.answer-correct .radio::part(container)::after {
+    content: '\f00c';
+    font-family: FontAwesome;
+    color: green;
+    font-size: 11px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.answer-wrong {
+    border-color: #ff3b32;
+}
+
+.answer-wrong .radio {
+    --color: transparent !important;
+    --color-checked: transparent !important;
+    border: 2px solid #ff3b32;
+    border-radius: 50%;
+}
+
+.answer-wrong .radio::part(container)::after {
+    content: '\f00d';
+    font-family: FontAwesome;
+    color: #ff3b32;
+    font-size: 11px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /***************************************************************************************************/
